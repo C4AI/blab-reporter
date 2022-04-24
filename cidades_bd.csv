@@ -1,0 +1,508 @@
+cidade;uf;tempo;temperatura;temperatura_max;temperatura_min;nebulosidade;umidade;vento;horario_por_sol;pesca;melhor_horario_pesca;altura_maior_onda;data
+Angra dos Reis;RJ;chuvas leves;22;24;22;97;93;12;6:46pm;Mediano;8:11pm - 10:11pm;0.9;30/12/2021
+Aracaju;SE;céu parcialmente nublado;27;27;27;21;80;26;5:54pm;Mediano;7:41pm - 9:41pm;2.0;30/12/2021
+Arraial do Cabo;RJ;chuvas leves;23;24;23;70;93;28;6:37pm;Mediano;8:01pm - 10:01pm;0.2;30/12/2021
+Balneário Camboriu;SC;chuvas leves;23;25;23;100;86;24;7:12pm;Mediano;8:28pm - 10:28pm;0.2;30/12/2021
+Barreirinhas;MA;céu nublado;27;28;27;85;80;32;6:00pm;Mediano;8:04pm - 10:04pm;2.4;30/12/2021
+Bertioga;SP;chuvas leves;23;24;23;56;88;19;6:55pm;Mediano;8:18pm - 10:18pm;1.2;30/12/2021
+Bombinhas;SC;chuvas leves;22;26;22;81;87;25;7:12pm;Mediano;8:28pm - 10:28pm;0.8;30/12/2021
+Búzios;RJ;chuvas leves;24;25;24;55;89;36;6:35pm;Mediano;8:00pm - 10:00pm;0.3;30/12/2021
+Cabo Frio;RJ;chuvas leves;23;24;23;70;93;28;6:37pm;Mediano;8:01pm - 10:01pm;0.2;30/12/2021
+Enseada;SP;chuvas leves;22;24;22;98;92;19;6:49pm;Mediano;8:13pm - 10:13pm;0.9;30/12/2021
+Fernando de Noronha;PE;chuvas leves;27;27;27;63;80;27;6:22pm;Mediano;8:23pm - 10:23pm;2.0;30/12/2021
+Florianópolis;SC;períodos de chuva ao longo do dia;22;25;22;81;85;26;7:13pm;Mediano;8:28pm - 10:28pm;0.2;30/12/2021
+Fortaleza;CE;céu nublado;27;28;27;89;83;24;5:47pm;Mediano;7:48pm - 9:48pm;2.3;30/12/2021
+Guarujá;SP;chuvas leves;23;24;23;56;88;19;6:56pm;Mediano;8:19pm - 10:19pm;1.2;30/12/2021
+Ilha Bela;SP;chuvas leves;23;24;23;100;85;28;6:52pm;Mediano;8:15pm - 10:15pm;1.2;30/12/2021
+Ilhéus;BA;períodos de chuva ao longo do dia;24;27;24;89;89;20;6:08pm;Mediano;7:49pm - 9:49pm;2.0;30/12/2021
+Itanhaém;SP;chuvas leves;23;24;23;77;85;22;6:56pm;Mediano;8:19pm - 10:19pm;1.2;30/12/2021
+Jaboatão dos Guararapes;PE;céu parcialmente nublado;27;27;27;14;69;26;5:40pm;Mediano;7:32pm - 9:32pm;2.0;30/12/2021
+Jijoca de Jericoacoara;CE;chuvas leves;27;28;27;50;81;36;5:55pm;Mediano;7:59pm - 9:59pm;2.4;30/12/2021
+João Pessoa;PB;céu parcialmente nublado;27;28;27;58;74;24;5:38pm;Mediano;7:32pm - 9:32pm;2.0;30/12/2021
+Lagoinha;SP;períodos de chuva ao longo do dia;22;25;22;81;85;26;7:13pm;Mediano;8:28pm - 10:28pm;0.2;30/12/2021
+Lauro de Freitas;BA;períodos de chuva ao longo do dia;27;27;27;83;79;27;6:03pm;Mediano;7:47pm - 9:47pm;2.0;30/12/2021
+Macaé;RJ;chuvas leves;23;24;23;93;93;27;6:34pm;Mediano;8:00pm - 10:00pm;0.2;30/12/2021
+Macapá;AP;chuvas leves;25;27;25;51;91;22;6:29pm;Mediano;8:39pm - 10:39pm;4.8;30/12/2021
+Maceió;AL;céu parcialmente nublado;26;27;26;15;73;26;5:46pm;Mediano;7:36pm - 9:36pm;2.0;30/12/2021
+Marechal Deodoro;AL;céu parcialmente nublado;26;27;26;15;73;26;5:46pm;Mediano;7:36pm - 9:36pm;2.0;30/12/2021
+Morro de São Paulo;BA;períodos de chuva ao longo do dia;26;27;26;77;82;30;6:05pm;Mediano;7:49pm - 9:49pm;2.0;30/12/2021
+Natal;RN;céu parcialmente nublado;27;29;27;47;72;24;5:37pm;Mediano;7:34pm - 9:34pm;2.0;30/12/2021
+Niterói;RJ;chuvas fortes ao longo do dia;23;26;23;83;95;18;6:41pm;Mediano;8:06pm - 10:06pm;0.3;30/12/2021
+Olinda;PE;céu parcialmente nublado;27;27;27;14;69;26;5:40pm;Mediano;7:32pm - 9:32pm;2.0;30/12/2021
+Paranaguá;PR;chuvas leves;23;24;23;79;85;18;7:08pm;Mediano;8:28pm - 10:28pm;1.3;30/12/2021
+Paraty;RJ;chuvas leves;22;24;22;98;92;19;6:49pm;Mediano;8:13pm - 10:13pm;0.9;30/12/2021
+Parnaíba;PI;chuvas leves;27;28;27;75;81;34;5:58pm;Mediano;8:02pm - 10:02pm;2.3;30/12/2021
+Pedra Grande;RN;céu parcialmente nublado;26;28;26;8;71;21;5:43pm;Mediano;7:34pm - 9:34pm;2.0;30/12/2021
+Peruíbe;SP;chuvas leves;23;24;23;77;85;22;6:56pm;Mediano;8:19pm - 10:19pm;1.2;30/12/2021
+Ponta Negra;RN;céu parcialmente nublado;27;29;27;47;72;24;5:37pm;Mediano;7:34pm - 9:34pm;2.0;30/12/2021
+Porto de Galinhas;PE;céu parcialmente nublado;26;28;26;7;70;21;5:41pm;Mediano;7:33pm - 9:33pm;2.0;30/12/2021
+Porto Seguro;BA;céu parcialmente nublado;26;26;26;23;84;24;6:11pm;Mediano;7:49pm - 9:49pm;2.0;30/12/2021
+Praia Grande;SP;chuvas leves;23;24;23;77;85;22;6:56pm;Mediano;8:19pm - 10:19pm;1.2;30/12/2021
+Recife;PE;céu parcialmente nublado;27;27;27;14;69;26;5:40pm;Mediano;7:32pm - 9:32pm;2.0;30/12/2021
+Rio das Ostras;RJ;chuvas leves;23;24;23;93;93;27;6:34pm;Mediano;8:00pm - 10:00pm;0.3;30/12/2021
+Rio de Janeiro;RJ;chuvas fortes ao longo do dia;23;26;23;83;95;18;6:41pm;Mediano;8:06pm - 10:06pm;0.3;30/12/2021
+Salvador;BA;períodos de chuva ao longo do dia;26;27;26;79;82;27;6:04pm;Mediano;7:48pm - 9:48pm;2.0;30/12/2021
+Santos;SP;chuvas leves;23;24;23;56;88;19;6:56pm;Mediano;8:19pm - 10:19pm;1.2;30/12/2021
+São Luis;MA;chuvas leves;26;28;26;52;88;20;6:08pm;Mediano;8:13pm - 10:13pm;5.4;30/12/2021
+São Mateus;ES;períodos de chuva ao longo do dia;25;26;25;89;88;19;6:19pm;Mediano;7:52pm - 9:52pm;2.0;30/12/2021
+São Sebastião;SP;chuvas leves;23;24;23;100;85;28;6:52pm;Mediano;8:15pm - 10:15pm;1.2;30/12/2021
+Tibau do Sul;RN;céu nublado;27;28;27;67;77;30;5:37pm;Mediano;7:33pm - 9:33pm;2.0;30/12/2021
+Ubatuba;SP;chuvas leves;22;24;22;98;92;19;6:49pm;Mediano;8:13pm - 10:13pm;0.9;30/12/2021
+Vila Velha;ES;céu parcialmente nublado;25;26;25;49;85;17;6:24pm;Mediano;7:54pm - 9:54pm;1.3;30/12/2021
+Angra dos Reis;RJ;períodos de chuva ao longo do dia;27;27;27;76;74;18;6:47pm;Mediano;1:54pm - 3:54pm;1.0;05/01/2022
+Aracaju;SE;céu parcialmente nublado;25;27;25;9;68;17;5:56pm;Mediano;1:25pm - 3:25pm;2.2;05/01/2022
+Arraial do Cabo;RJ;céu parcialmente nublado;25;25;25;47;79;34;6:38pm;Mediano;1:45pm - 3:45pm;1.1;05/01/2022
+Balneário Camboriu;SC;períodos de chuva ao longo do dia;26;26;26;84;77;24;7:13pm;Mediano;2:11pm - 4:11pm;0.9;05/01/2022
+Barreirinhas;MA;chuvas leves;27;27;27;59;73;39;6:03pm;Mediano;1:48pm - 3:48pm;2.5;05/01/2022
+Bertioga;SP;períodos de chuva ao longo do dia;28;28;28;85;74;7;6:57pm;Mediano;2:02pm - 4:02pm;1.4;05/01/2022
+Bombinhas;SC;períodos de chuva ao longo do dia;26;26;26;88;73;24;7:13pm;Mediano;2:11pm - 4:11pm;0.9;05/01/2022
+Búzios;RJ;céu parcialmente nublado;26;26;26;47;78;37;6:37pm;Mediano;1:44pm - 3:44pm;1.2;05/01/2022
+Cabo Frio;RJ;céu parcialmente nublado;25;25;25;47;79;34;6:38pm;Mediano;1:45pm - 3:45pm;1.1;05/01/2022
+Enseada;SP;céu parcialmente nublado;28;28;28;46;67;11;6:51pm;Mediano;1:57pm - 3:57pm;1.1;05/01/2022
+Fernando de Noronha;PE;períodos de chuva ao longo do dia;27;27;27;89;78;26;6:25pm;Mediano;2:07pm - 4:07pm;2.1;05/01/2022
+Florianópolis;SC;períodos de chuva ao longo do dia;24;24;24;75;76;27;7:14pm;Mediano;2:11pm - 4:11pm;0.8;05/01/2022
+Fortaleza;CE;períodos de chuva ao longo do dia;27;27;27;70;77;24;5:50pm;Mediano;1:32pm - 3:32pm;2.4;05/01/2022
+Guarujá;SP;períodos de chuva ao longo do dia;28;28;28;73;74;7;6:57pm;Mediano;2:02pm - 4:02pm;1.4;05/01/2022
+Ilha Bela;SP;céu parcialmente nublado;27;27;27;33;78;9;6:53pm;Mediano;1:58pm - 3:58pm;1.1;05/01/2022
+Ilhéus;BA;céu nublado;27;28;27;100;66;14;6:10pm;Mediano;1:34pm - 3:34pm;2.2;05/01/2022
+Itanhaém;SP;céu parcialmente nublado;27;27;27;33;82;4;6:58pm;Mediano;2:03pm - 4:03pm;1.4;05/01/2022
+Jaboatão dos Guararapes;PE;chuvas leves;27;27;27;86;75;26;5:43pm;Mediano;1:17pm - 3:17pm;2.2;05/01/2022
+Jijoca de Jericoacoara;CE;chuvas leves;27;27;27;56;74;33;5:58pm;Mediano;1:43pm - 3:43pm;2.5;05/01/2022
+João Pessoa;PB;períodos de chuva ao longo do dia;28;28;28;73;68;21;5:41pm;Mediano;1:17pm - 3:17pm;2.2;05/01/2022
+Lagoinha;SP;períodos de chuva ao longo do dia;24;24;24;75;76;27;7:14pm;Mediano;2:11pm - 4:11pm;0.8;05/01/2022
+Lauro de Freitas;BA;céu parcialmente nublado;27;27;27;33;72;15;6:05pm;Mediano;1:31pm - 3:31pm;2.2;05/01/2022
+Macaé;RJ;céu parcialmente nublado;25;25;25;44;79;22;6:36pm;Mediano;1:44pm - 3:44pm;1.2;05/01/2022
+Macapá;AP;chuvas leves;27;27;27;87;82;11;6:32pm;Mediano;2:24pm - 4:24pm;5.1;05/01/2022
+Maceió;AL;períodos de chuva ao longo do dia;28;28;28;84;68;24;5:49pm;Mediano;1:20pm - 3:20pm;2.2;05/01/2022
+Marechal Deodoro;AL;períodos de chuva ao longo do dia;28;28;28;80;68;24;5:49pm;Mediano;1:20pm - 3:20pm;2.2;05/01/2022
+Morro de São Paulo;BA;céu parcialmente nublado;24;26;24;14;69;17;6:07pm;Mediano;1:33pm - 3:33pm;2.2;05/01/2022
+Natal;RN;céu parcialmente nublado;28;29;28;6;55;24;5:40pm;Mediano;1:18pm - 3:18pm;2.2;05/01/2022
+Niterói;RJ;céu parcialmente nublado;26;27;26;58;71;13;6:42pm;Mediano;1:49pm - 3:49pm;1.2;05/01/2022
+Olinda;PE;chuvas leves;27;27;27;86;75;26;5:43pm;Mediano;1:17pm - 3:17pm;2.2;05/01/2022
+Paranaguá;PR;céu nublado;26;26;26;66;79;13;7:10pm;Mediano;2:11pm - 4:11pm;1.2;05/01/2022
+Paraty;RJ;céu parcialmente nublado;28;28;28;46;67;11;6:51pm;Mediano;1:57pm - 3:57pm;1.2;05/01/2022
+Parnaíba;PI;chuvas leves;28;28;28;52;71;35;6:01pm;Mediano;1:46pm - 3:46pm;2.4;05/01/2022
+Pedra Grande;RN;períodos de chuva ao longo do dia;28;28;28;76;65;21;5:45pm;Mediano;1:18pm - 3:18pm;2.2;05/01/2022
+Peruíbe;SP;céu parcialmente nublado;27;27;27;33;82;4;6:58pm;Mediano;2:03pm - 4:03pm;1.4;05/01/2022
+Ponta Negra;RN;céu parcialmente nublado;28;29;28;6;55;24;5:40pm;Mediano;1:18pm - 3:18pm;2.2;05/01/2022
+Porto de Galinhas;PE;chuvas leves;28;28;28;68;70;23;5:44pm;Mediano;1:17pm - 3:17pm;2.2;05/01/2022
+Porto Seguro;BA;céu parcialmente nublado;27;27;27;30;73;15;6:13pm;Mediano;1:33pm - 3:33pm;2.1;05/01/2022
+Praia Grande;SP;céu parcialmente nublado;27;27;27;33;82;4;6:58pm;Mediano;2:03pm - 4:03pm;1.4;05/01/2022
+Recife;PE;chuvas leves;27;27;27;86;75;26;5:43pm;Mediano;1:17pm - 3:17pm;2.2;05/01/2022
+Rio das Ostras;RJ;céu parcialmente nublado;25;25;25;44;79;22;6:36pm;Mediano;1:44pm - 3:44pm;1.2;05/01/2022
+Rio de Janeiro;RJ;céu parcialmente nublado;26;27;26;58;71;13;6:43pm;Mediano;1:50pm - 3:50pm;1.2;05/01/2022
+Salvador;BA;céu parcialmente nublado;27;27;27;29;71;15;6:06pm;Mediano;1:32pm - 3:32pm;2.2;05/01/2022
+Santos;SP;períodos de chuva ao longo do dia;28;28;28;73;74;7;6:57pm;Mediano;2:02pm - 4:02pm;1.4;05/01/2022
+São Luis;MA;períodos de chuva ao longo do dia;27;27;27;80;74;12;6:11pm;Mediano;1:57pm - 3:57pm;5.6;05/01/2022
+São Mateus;ES;céu parcialmente nublado;24;26;24;9;74;23;6:20pm;Mediano;1:36pm - 3:36pm;2.2;05/01/2022
+São Sebastião;SP;céu parcialmente nublado;27;27;27;33;78;9;6:53pm;Mediano;1:58pm - 3:58pm;1.1;05/01/2022
+Tibau do Sul;RN;céu parcialmente nublado;26;28;26;12;65;26;5:40pm;Mediano;1:18pm - 3:18pm;2.2;05/01/2022
+Ubatuba;SP;céu parcialmente nublado;28;28;28;46;67;11;6:51pm;Mediano;1:57pm - 3:57pm;1.2;05/01/2022
+Vila Velha;ES;céu parcialmente nublado;26;26;26;27;73;26;6:26pm;Mediano;1:38pm - 3:38pm;1.4;05/01/2022
+Angra dos Reis;RJ;períodos de chuva ao longo do dia;25;25;25;78;83;28;6:48pm;Mediano;2:45pm - 4:45pm;1.0;06/01/2022
+Aracaju;SE;céu parcialmente nublado;26;28;26;44;77;24;5:56pm;Mediano;2:17pm - 4:17pm;2.1;06/01/2022
+Arraial do Cabo;RJ;períodos de chuva ao longo do dia;23;24;23;69;94;31;6:38pm;Mediano;2:36pm - 4:36pm;1.1;06/01/2022
+Balneário Camboriu;SC;céu nublado;22;23;22;87;89;30;7:13pm;Mediano;3:02pm - 5:02pm;0.9;06/01/2022
+Barreirinhas;MA;céu nublado;27;28;27;84;80;34;6:03pm;Mediano;2:40pm - 4:40pm;2.4;06/01/2022
+Bertioga;SP;chuvas leves;24;24;24;98;90;12;6:57pm;Mediano;2:53pm - 4:53pm;1.3;06/01/2022
+Bombinhas;SC;céu nublado;21;24;21;89;91;26;7:14pm;Mediano;3:02pm - 5:02pm;0.9;06/01/2022
+Búzios;RJ;céu nublado;23;24;23;52;95;37;6:37pm;Mediano;2:35pm - 4:35pm;1.2;06/01/2022
+Cabo Frio;RJ;períodos de chuva ao longo do dia;23;24;23;69;94;31;6:38pm;Mediano;2:36pm - 4:36pm;1.1;06/01/2022
+Enseada;SP;períodos de chuva ao longo do dia;23;24;23;70;87;23;6:51pm;Mediano;2:48pm - 4:48pm;1.1;06/01/2022
+Fernando de Noronha;PE;céu nublado;27;27;27;69;76;29;6:25pm;Mediano;2:59pm - 4:59pm;2.1;06/01/2022
+Florianópolis;SC;chuvas leves;21;23;21;100;93;27;7:14pm;Mediano;3:02pm - 5:02pm;0.8;06/01/2022
+Fortaleza;CE;chuvas leves;26;28;26;68;85;24;5:50pm;Mediano;2:24pm - 4:24pm;2.3;06/01/2022
+Guarujá;SP;chuvas leves;24;24;24;98;90;12;6:57pm;Mediano;2:54pm - 4:54pm;1.3;06/01/2022
+Ilha Bela;SP;períodos de chuva ao longo do dia;24;24;24;76;90;25;6:54pm;Mediano;2:50pm - 4:50pm;1.1;06/01/2022
+Ilhéus;BA;céu parcialmente nublado;23;27;23;46;88;23;6:11pm;Mediano;2:25pm - 4:25pm;2.1;06/01/2022
+Itanhaém;SP;chuvas leves;24;24;24;86;88;15;6:58pm;Mediano;2:54pm - 4:54pm;1.3;06/01/2022
+Jaboatão dos Guararapes;PE;chuvas leves;26;28;26;71;82;30;5:43pm;Mediano;2:08pm - 4:08pm;2.1;06/01/2022
+Jijoca de Jericoacoara;CE;céu parcialmente nublado;26;27;26;52;80;36;5:58pm;Mediano;2:34pm - 4:34pm;2.4;06/01/2022
+João Pessoa;PB;períodos de chuva ao longo do dia;26;28;26;75;80;16;5:41pm;Mediano;2:08pm - 4:08pm;2.1;06/01/2022
+Lagoinha;SP;chuvas leves;21;23;21;100;93;27;7:14pm;Mediano;3:02pm - 5:02pm;0.8;06/01/2022
+Lauro de Freitas;BA;períodos de chuva ao longo do dia;26;27;26;70;79;27;6:05pm;Mediano;2:23pm - 4:23pm;2.1;06/01/2022
+Macaé;RJ;céu nublado;23;24;23;53;96;20;6:36pm;Mediano;2:35pm - 4:35pm;1.2;06/01/2022
+Macapá;AP;chuvas leves;23;27;23;60;94;20;6:32pm;Mediano;3:14pm - 5:14pm;5.0;06/01/2022
+Maceió;AL;céu nublado;26;28;26;84;74;30;5:49pm;Mediano;2:12pm - 4:12pm;2.1;06/01/2022
+Marechal Deodoro;AL;céu nublado;26;28;26;84;74;30;5:49pm;Mediano;2:12pm - 4:12pm;2.1;06/01/2022
+Morro de São Paulo;BA;chuvas leves;26;27;26;82;82;32;6:08pm;Mediano;2:25pm - 4:25pm;2.1;06/01/2022
+Natal;RN;períodos de chuva ao longo do dia;26;29;26;63;78;18;5:40pm;Mediano;2:10pm - 4:10pm;2.1;06/01/2022
+Niterói;RJ;céu nublado;24;27;24;66;85;14;6:43pm;Mediano;2:40pm - 4:40pm;1.2;06/01/2022
+Olinda;PE;chuvas leves;26;28;26;71;82;30;5:43pm;Mediano;2:08pm - 4:08pm;2.1;06/01/2022
+Paranaguá;PR;chuvas leves;24;24;24;98;84;37;7:10pm;Mediano;3:03pm - 5:03pm;1.2;06/01/2022
+Paraty;RJ;períodos de chuva ao longo do dia;23;24;23;70;87;23;6:51pm;Mediano;2:48pm - 4:48pm;1.2;06/01/2022
+Parnaíba;PI;céu parcialmente nublado;27;28;27;61;80;37;6:01pm;Mediano;2:37pm - 4:37pm;2.3;06/01/2022
+Pedra Grande;RN;céu nublado;26;28;26;78;76;21;5:46pm;Mediano;2:10pm - 4:10pm;2.1;06/01/2022
+Peruíbe;SP;chuvas leves;24;24;24;86;88;15;6:58pm;Mediano;2:54pm - 4:54pm;1.3;06/01/2022
+Ponta Negra;RN;períodos de chuva ao longo do dia;26;29;26;63;78;18;5:40pm;Mediano;2:10pm - 4:10pm;2.1;06/01/2022
+Porto de Galinhas;PE;chuvas leves;26;28;26;84;80;24;5:44pm;Mediano;2:09pm - 4:09pm;2.1;06/01/2022
+Porto Seguro;BA;céu parcialmente nublado;25;27;25;39;85;32;6:14pm;Mediano;2:25pm - 4:25pm;2.1;06/01/2022
+Praia Grande;SP;chuvas leves;24;24;24;86;88;15;6:58pm;Mediano;2:54pm - 4:54pm;1.3;06/01/2022
+Recife;PE;chuvas leves;26;28;26;71;82;30;5:43pm;Mediano;2:08pm - 4:08pm;2.1;06/01/2022
+Rio das Ostras;RJ;céu nublado;23;24;23;53;96;20;6:36pm;Mediano;2:35pm - 4:35pm;1.2;06/01/2022
+Rio de Janeiro;RJ;céu nublado;24;27;24;66;85;14;6:43pm;Mediano;2:41pm - 4:41pm;1.2;06/01/2022
+Salvador;BA;chuvas leves;25;27;25;64;83;27;6:06pm;Mediano;2:23pm - 4:23pm;2.1;06/01/2022
+Santos;SP;chuvas leves;24;24;24;98;90;12;6:57pm;Mediano;2:54pm - 4:54pm;1.3;06/01/2022
+São Luis;MA;chuvas leves;24;28;24;76;92;27;6:11pm;Mediano;2:49pm - 4:49pm;5.4;06/01/2022
+São Mateus;ES;céu parcialmente nublado;25;28;25;31;86;44;6:21pm;Mediano;2:27pm - 4:27pm;2.1;06/01/2022
+São Sebastião;SP;períodos de chuva ao longo do dia;24;24;24;76;90;25;6:54pm;Mediano;2:50pm - 4:50pm;1.1;06/01/2022
+Tibau do Sul;RN;céu parcialmente nublado;27;28;27;61;74;28;5:40pm;Mediano;2:09pm - 4:09pm;2.1;06/01/2022
+Ubatuba;SP;períodos de chuva ao longo do dia;23;24;23;70;87;23;6:51pm;Mediano;2:48pm - 4:48pm;1.2;06/01/2022
+Vila Velha;ES;céu parcialmente nublado;25;27;25;51;83;33;6:26pm;Mediano;2:29pm - 4:29pm;1.4;06/01/2022
+Angra dos Reis;RJ;chuvas leves;23;24;23;55;85;19;6:48pm;Mediano;3:33pm - 5:33pm;1.0;07/01/2022
+Aracaju;SE;céu parcialmente nublado;27;28;27;24;84;36;5:57pm;Mediano;3:04pm - 5:04pm;2.0;07/01/2022
+Arraial do Cabo;RJ;chuvas leves;24;24;24;98;88;14;6:39pm;Mediano;3:23pm - 5:23pm;1.0;07/01/2022
+Balneário Camboriu;SC;céu nublado;22;24;22;64;69;35;7:13pm;Mediano;3:49pm - 5:49pm;0.8;07/01/2022
+Barreirinhas;MA;céu parcialmente nublado;27;28;27;35;82;31;6:04pm;Mediano;3:27pm - 5:27pm;2.3;07/01/2022
+Bertioga;SP;chuvas leves;23;24;23;83;83;23;6:57pm;Mediano;3:40pm - 5:40pm;1.2;07/01/2022
+Bombinhas;SC;céu nublado;22;24;22;86;71;36;7:14pm;Mediano;3:49pm - 5:49pm;0.8;07/01/2022
+Búzios;RJ;chuvas leves;23;24;23;74;89;18;6:37pm;Mediano;3:23pm - 5:23pm;1.1;07/01/2022
+Cabo Frio;RJ;chuvas leves;24;24;24;98;88;14;6:39pm;Mediano;3:23pm - 5:23pm;1.0;07/01/2022
+Enseada;SP;chuvas leves;22;23;22;71;89;26;6:51pm;Mediano;3:35pm - 5:35pm;1.0;07/01/2022
+Fernando de Noronha;PE;céu nublado;27;27;27;65;76;25;6:26pm;Mediano;3:46pm - 5:46pm;2.0;07/01/2022
+Florianópolis;SC;céu nublado;21;23;21;94;73;29;7:14pm;Mediano;3:49pm - 5:49pm;0.8;07/01/2022
+Fortaleza;CE;céu parcialmente nublado;27;28;27;14;76;25;5:50pm;Mediano;3:11pm - 5:11pm;2.2;07/01/2022
+Guarujá;SP;chuvas leves;23;24;23;83;83;23;6:58pm;Mediano;3:41pm - 5:41pm;1.2;07/01/2022
+Ilha Bela;SP;chuvas leves;23;24;23;51;86;11;6:54pm;Mediano;3:37pm - 5:37pm;1.1;07/01/2022
+Ilhéus;BA;períodos de chuva ao longo do dia;26;28;26;77;89;26;6:11pm;Mediano;3:12pm - 5:12pm;2.0;07/01/2022
+Itanhaém;SP;chuvas leves;24;24;24;52;84;27;6:58pm;Mediano;3:41pm - 5:41pm;1.2;07/01/2022
+Jaboatão dos Guararapes;PE;céu parcialmente nublado;27;28;27;56;74;28;5:43pm;Mediano;2:55pm - 4:55pm;2.0;07/01/2022
+Jijoca de Jericoacoara;CE;períodos de chuva ao longo do dia;27;27;27;87;81;39;5:59pm;Mediano;3:21pm - 5:21pm;2.3;07/01/2022
+João Pessoa;PB;períodos de chuva ao longo do dia;27;28;27;59;76;20;5:41pm;Mediano;2:56pm - 4:56pm;2.0;07/01/2022
+Lagoinha;SP;céu nublado;21;23;21;94;73;29;7:14pm;Mediano;3:49pm - 5:49pm;0.8;07/01/2022
+Lauro de Freitas;BA;períodos de chuva ao longo do dia;27;28;27;77;82;35;6:05pm;Mediano;3:10pm - 5:10pm;2.0;07/01/2022
+Macaé;RJ;chuvas leves;22;24;22;72;94;16;6:36pm;Mediano;3:22pm - 5:22pm;1.1;07/01/2022
+Macapá;AP;chuvas leves;24;27;24;52;92;16;6:32pm;Mediano;4:02pm - 6:02pm;4.8;07/01/2022
+Maceió;AL;céu parcialmente nublado;27;28;27;26;80;44;5:49pm;Mediano;2:59pm - 4:59pm;2.0;07/01/2022
+Marechal Deodoro;AL;céu parcialmente nublado;27;28;27;26;80;44;5:49pm;Mediano;2:59pm - 4:59pm;2.0;07/01/2022
+Morro de São Paulo;BA;períodos de chuva ao longo do dia;27;27;27;86;85;34;6:08pm;Mediano;3:12pm - 5:12pm;2.0;07/01/2022
+Natal;RN;céu parcialmente nublado;27;29;27;58;76;19;5:40pm;Mediano;2:57pm - 4:57pm;2.0;07/01/2022
+Niterói;RJ;chuvas leves;23;24;23;81;89;21;6:43pm;Mediano;3:28pm - 5:28pm;1.1;07/01/2022
+Olinda;PE;céu parcialmente nublado;27;28;27;56;74;28;5:43pm;Mediano;2:55pm - 4:55pm;2.0;07/01/2022
+Paranaguá;PR;chuvas leves;24;24;24;75;71;30;7:10pm;Mediano;3:49pm - 5:49pm;1.2;07/01/2022
+Paraty;RJ;chuvas leves;22;23;22;71;89;26;6:51pm;Mediano;3:35pm - 5:35pm;1.1;07/01/2022
+Parnaíba;PI;períodos de chuva ao longo do dia;27;28;27;81;81;39;6:01pm;Mediano;3:24pm - 5:24pm;2.2;07/01/2022
+Pedra Grande;RN;céu parcialmente nublado;27;28;27;53;80;26;5:46pm;Mediano;2:57pm - 4:57pm;2.0;07/01/2022
+Peruíbe;SP;chuvas leves;24;24;24;52;84;27;6:58pm;Mediano;3:41pm - 5:41pm;1.2;07/01/2022
+Ponta Negra;RN;céu parcialmente nublado;27;29;27;58;76;19;5:40pm;Mediano;2:57pm - 4:57pm;2.0;07/01/2022
+Porto de Galinhas;PE;céu nublado;27;28;27;67;78;26;5:44pm;Mediano;2:56pm - 4:56pm;2.0;07/01/2022
+Porto Seguro;BA;chuvas leves;25;28;25;57;88;33;6:14pm;Mediano;3:11pm - 5:11pm;2.0;07/01/2022
+Praia Grande;SP;chuvas leves;24;24;24;52;84;27;6:58pm;Mediano;3:41pm - 5:41pm;1.2;07/01/2022
+Recife;PE;céu parcialmente nublado;27;28;27;56;74;28;5:43pm;Mediano;2:55pm - 4:55pm;2.0;07/01/2022
+Rio das Ostras;RJ;chuvas leves;22;24;22;72;94;16;6:36pm;Mediano;3:22pm - 5:22pm;1.1;07/01/2022
+Rio de Janeiro;RJ;chuvas leves;23;24;23;81;89;21;6:43pm;Mediano;3:28pm - 5:28pm;1.1;07/01/2022
+Salvador;BA;períodos de chuva ao longo do dia;27;28;27;70;83;35;6:06pm;Mediano;3:10pm - 5:10pm;2.0;07/01/2022
+Santos;SP;chuvas leves;23;24;23;83;83;23;6:58pm;Mediano;3:41pm - 5:41pm;1.2;07/01/2022
+São Luis;MA;períodos de chuva ao longo do dia;25;28;25;70;90;20;6:12pm;Mediano;3:35pm - 5:35pm;5.1;07/01/2022
+São Mateus;ES;chuvas leves;23;25;23;64;93;11;6:21pm;Mediano;3:14pm - 5:14pm;2.0;07/01/2022
+São Sebastião;SP;chuvas leves;23;24;23;51;86;11;6:54pm;Mediano;3:37pm - 5:37pm;1.0;07/01/2022
+Tibau do Sul;RN;períodos de chuva ao longo do dia;27;28;27;76;78;24;5:40pm;Mediano;2:56pm - 4:56pm;2.0;07/01/2022
+Ubatuba;SP;chuvas leves;22;23;22;71;89;26;6:51pm;Mediano;3:35pm - 5:35pm;1.1;07/01/2022
+Vila Velha;ES;chuvas leves;23;24;23;100;94;13;6:26pm;Mediano;3:16pm - 5:16pm;1.3;07/01/2022
+Angra dos Reis;RJ;céu parcialmente nublado [emoji_nuvem_sol];22;23;22;60;89;8;6:48pm;Mediano;12:42pm - 2:42pm;0.7;11/01/2022
+Aracaju;SE;céu parcialmente nublado [emoji_nuvem_sol];27;27;27;58;76;30;5:58pm;Mediano;11:58am - 1:58pm;0.7;11/01/2022
+Arraial do Cabo;RJ;períodos de chuva ao longo do dia [emoji_chuva];24;24;24;95;84;5;6:39pm;Mediano;12:33pm - 2:33pm;0.8;11/01/2022
+Balneário Camboriu;SC;céu parcialmente nublado [emoji_nuvem_sol];24;24;24;42;82;18;7:13pm;Mediano;1:05pm - 3:05pm;0.6;11/01/2022
+Barreirinhas;MA;céu nublado [emoji_nuvem];27;27;27;80;75;23;6:05pm;Mediano;12:11pm - 2:11pm;0.7;11/01/2022
+Bertioga;SP;céu nublado [emoji_nuvem];24;24;24;89;79;11;6:57pm;Mediano;12:51pm - 2:51pm;0.8;11/01/2022
+Bombinhas;SC;períodos de chuva ao longo do dia [emoji_chuva];24;24;24;79;80;17;7:14pm;Mediano;1:05pm - 3:05pm;0.6;11/01/2022
+Búzios;RJ;períodos de chuva ao longo do dia [emoji_chuva];25;25;25;68;88;10;6:38pm;Mediano;12:32pm - 2:32pm;0.9;11/01/2022
+Cabo Frio;RJ;períodos de chuva ao longo do dia [emoji_chuva];24;24;24;95;84;5;6:39pm;Mediano;12:33pm - 2:33pm;0.8;11/01/2022
+Enseada;SP;céu nublado;21;23;21;64;92;10;6:51pm;Mediano;12:45pm - 2:45pm;0.8;11/01/2022
+Fernando de Noronha;PE;chuvas leves [emoji_chuva_sol];27;27;27;71;77;25;6:27pm;Mediano;12:32pm - 2:32pm;1.6;11/01/2022
+Florianópolis;SC;períodos de chuva ao longo do dia [emoji_chuva];24;24;24;64;79;14;7:15pm;Mediano;1:06pm - 3:06pm;0.6;11/01/2022
+Fortaleza;CE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;82;74;21;5:52pm;Mediano;11:56am - 1:56pm;0.7;11/01/2022
+Guarujá;SP;céu nublado [emoji_nuvem];24;24;24;89;79;11;6:58pm;Mediano;12:52pm - 2:52pm;0.8;11/01/2022
+Ilha Bela;SP;períodos de chuva ao longo do dia [emoji_chuva];24;24;24;67;83;6;6:54pm;Mediano;12:48pm - 2:48pm;0.8;11/01/2022
+Ilhéus;BA;muito sol [emoji_sol];26;28;26;0;69;29;6:12pm;Mediano;12:11pm - 2:11pm;0.7;11/01/2022
+Itanhaém;SP;céu nublado [emoji_nuvem];24;24;24;73;79;14;6:59pm;Mediano;12:52pm - 2:52pm;0.8;11/01/2022
+Jaboatão dos Guararapes;PE;céu parcialmente nublado [emoji_nuvem_sol];28;28;28;55;71;19;5:44pm;Mediano;11:46am - 1:46pm;0.7;11/01/2022
+Jijoca de Jericoacoara;CE;céu parcialmente nublado [emoji_nuvem_sol];27;27;27;29;76;27;6:00pm;Mediano;12:06pm - 2:06pm;2.0;11/01/2022
+João Pessoa;PB;céu parcialmente nublado [emoji_nuvem_sol];28;28;28;56;71;15;5:43pm;Mediano;11:45am - 1:45pm;0.7;11/01/2022
+Lagoinha;SP;períodos de chuva ao longo do dia [emoji_chuva];24;24;24;64;79;14;7:15pm;Mediano;1:06pm - 3:06pm;0.6;11/01/2022
+Lauro de Freitas;BA;céu parcialmente nublado [emoji_nuvem_sol];26;27;26;1;75;21;6:06pm;Mediano;12:06pm - 2:06pm;1.7;11/01/2022
+Macaé;RJ;chuvas leves [emoji_chuva_sol];26;26;26;62;88;14;6:37pm;Mediano;12:31pm - 2:31pm;0.9;11/01/2022
+Macapá;AP;chuvas leves [emoji_chuva_sol];26;27;26;88;87;9;6:34pm;Mediano;12:43pm - 2:43pm;4.0;11/01/2022
+Maceió;AL;céu nublado [emoji_nuvem];27;28;27;84;73;29;5:50pm;Mediano;11:51am - 1:51pm;0.7;11/01/2022
+Marechal Deodoro;AL;céu nublado [emoji_nuvem];27;28;27;84;73;29;5:50pm;Mediano;11:51am - 1:51pm;0.7;11/01/2022
+Morro de São Paulo;BA;céu parcialmente nublado [emoji_nuvem_sol];26;27;26;5;75;23;6:09pm;Mediano;12:08pm - 2:08pm;0.7;11/01/2022
+Natal;RN;céu parcialmente nublado [emoji_nuvem_sol];27;29;27;13;66;19;5:42pm;Mediano;11:45am - 1:45pm;0.7;11/01/2022
+Niterói;RJ;chuvas leves [emoji_chuva_sol];23;25;23;100;95;10;6:43pm;Mediano;12:37pm - 2:37pm;0.9;11/01/2022
+Olinda;PE;céu parcialmente nublado [emoji_nuvem_sol];28;28;28;55;71;19;5:44pm;Mediano;11:46am - 1:46pm;0.7;11/01/2022
+Paranaguá;PR;céu parcialmente nublado [emoji_nuvem_sol];25;25;25;26;77;22;7:10pm;Mediano;1:03pm - 3:03pm;0.9;11/01/2022
+Paraty;RJ;céu nublado;21;23;21;64;92;10;6:51pm;Mediano;12:45pm - 2:45pm;0.9;11/01/2022
+Parnaíba;PI;céu parcialmente nublado [emoji_nuvem_sol];27;27;27;45;74;31;6:03pm;Mediano;12:09pm - 2:09pm;0.7;11/01/2022
+Pedra Grande;RN;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;87;73;21;5:47pm;Mediano;11:48am - 1:48pm;0.7;11/01/2022
+Peruíbe;SP;céu nublado [emoji_nuvem];24;24;24;73;79;14;6:59pm;Mediano;12:52pm - 2:52pm;0.8;11/01/2022
+Ponta Negra;RN;céu parcialmente nublado [emoji_nuvem_sol];27;29;27;13;66;19;5:42pm;Mediano;11:45am - 1:45pm;0.7;11/01/2022
+Porto de Galinhas;PE;céu parcialmente nublado [emoji_nuvem_sol];27;28;27;57;73;23;5:45pm;Mediano;11:47am - 1:47pm;1.7;11/01/2022
+Porto Seguro;BA;muito sol [emoji_sol];26;27;26;0;72;39;6:15pm;Mediano;12:12pm - 2:12pm;0.7;11/01/2022
+Praia Grande;SP;céu nublado [emoji_nuvem];24;24;24;73;79;14;6:59pm;Mediano;12:52pm - 2:52pm;0.8;11/01/2022
+Recife;PE;céu parcialmente nublado [emoji_nuvem_sol];28;28;28;55;71;19;5:44pm;Mediano;11:46am - 1:46pm;0.7;11/01/2022
+Rio das Ostras;RJ;chuvas leves [emoji_chuva_sol];26;26;26;62;88;14;6:37pm;Mediano;12:31pm - 2:31pm;0.9;11/01/2022
+Rio de Janeiro;RJ;chuvas leves [emoji_chuva_sol];23;25;23;100;95;10;6:43pm;Mediano;12:38pm - 2:38pm;0.9;11/01/2022
+Salvador;BA;céu parcialmente nublado [emoji_nuvem_sol];26;27;26;4;76;21;6:07pm;Mediano;12:07pm - 2:07pm;1.7;11/01/2022
+Santos;SP;céu nublado [emoji_nuvem];24;24;24;89;79;11;6:58pm;Mediano;12:52pm - 2:52pm;0.8;11/01/2022
+São Luis;MA;céu parcialmente nublado [emoji_nuvem_sol];27;28;27;31;75;15;6:13pm;Mediano;12:20pm - 2:20pm;4.5;11/01/2022
+São Mateus;ES;céu parcialmente nublado [emoji_nuvem_sol];25;26;25;3;80;32;6:22pm;Mediano;12:18pm - 2:18pm;0.7;11/01/2022
+São Sebastião;SP;períodos de chuva ao longo do dia [emoji_chuva];24;24;24;67;83;6;6:54pm;Mediano;12:48pm - 2:48pm;0.8;11/01/2022
+Tibau do Sul;RN;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;72;72;24;5:42pm;Mediano;11:44am - 1:44pm;0.7;11/01/2022
+Ubatuba;SP;céu nublado;21;23;21;64;92;10;6:51pm;Mediano;12:45pm - 2:45pm;0.9;11/01/2022
+Vila Velha;ES;muito sol [emoji_sol];26;27;26;0;81;27;6:27pm;Mediano;12:22pm - 2:22pm;1.1;11/01/2022
+Angra dos Reis;RJ;chuvas leves [emoji_chuva_sol];24;24;24;75;86;17;6:45pm;Excelente;11:12pm - 1:12am;1.0;31/01/2022
+Aracaju;SE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;74;80;21;5:59pm;Excelente;10:41pm - 12:41am;1.0;31/01/2022
+Arraial do Cabo;RJ;chuvas leves [emoji_chuva_sol];23;24;23;100;94;18;6:35pm;Excelente;11:02pm - 1:02am;1.1;31/01/2022
+Balneário Camboriu;SC;períodos de chuva ao longo do dia [emoji_chuva];22;25;22;100;81;14;7:08pm;Excelente;11:30pm - 1:30am;0.9;31/01/2022
+Barreirinhas;MA;céu parcialmente nublado [emoji_nuvem];27;27;27;28;72;37;6:09pm;Excelente;11:02pm - 1:02am;2.5;31/01/2022
+Bertioga;SP;céu parcialmente nublado [emoji_nuvem];24;24;24;58;77;10;6:54pm;Excelente;11:20pm - 1:20am;1.6;31/01/2022
+Bombinhas;SC;céu nublado [emoji_nuvem];22;26;22;100;78;12;7:08pm;Excelente;11:30pm - 1:30am;0.9;31/01/2022
+Búzios;RJ;chuvas leves [emoji_chuva_sol];23;24;23;71;94;19;6:34pm;Excelente;11:02pm - 1:02am;0.5;31/01/2022
+Cabo Frio;RJ;chuvas leves [emoji_chuva_sol];23;24;23;100;94;18;6:35pm;Excelente;11:02pm - 1:02am;1.1;31/01/2022
+Enseada;SP;períodos de chuva ao longo do dia [emoji_chuva];22;23;22;79;89;15;6:48pm;Excelente;11:14pm - 1:14am;1.1;31/01/2022
+Fernando de Noronha;PE;céu parcialmente nublado [emoji_nuvem];27;28;27;43;73;35;6:31pm;Excelente;11:21pm - 1:21am;2.2;31/01/2022
+Florianópolis;SC;céu parcialmente nublado [emoji_nuvem];21;27;21;41;79;9;7:09pm;Excelente;11:30pm - 1:30am;0.8;31/01/2022
+Fortaleza;CE;céu nublado [emoji_nuvem];27;28;27;72;80;28;5:56pm;Excelente;10:46pm - 12:46am;2.4;31/01/2022
+Guarujá;SP;céu parcialmente nublado [emoji_nuvem];24;24;24;58;77;10;6:54pm;Excelente;11:20pm - 1:20am;1.6;31/01/2022
+Ilha Bela;SP;céu parcialmente nublado [emoji_nuvem];24;24;24;50;80;22;6:50pm;Excelente;11:16pm - 1:16am;1.1;31/01/2022
+Ilhéus;BA;céu nublado [emoji_nuvem];24;28;24;68;90;23;6:12pm;Excelente;10:50pm - 12:50am;2.2;31/01/2022
+Itanhaém;SP;céu nublado [emoji_nuvem];24;25;24;70;80;8;6:55pm;Excelente;11:21pm - 1:21am;1.6;31/01/2022
+Jaboatão dos Guararapes;PE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;76;79;30;5:47pm;Excelente;10:31pm - 12:31am;2.2;31/01/2022
+Jijoca de Jericoacoara;CE;céu nublado [emoji_nuvem];26;28;26;63;82;35;6:04pm;Excelente;10:56pm - 12:56am;2.5;31/01/2022
+João Pessoa;PB;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;81;76;16;5:45pm;Excelente;10:31pm - 12:31am;2.2;31/01/2022
+Lagoinha;SP;céu parcialmente nublado [emoji_nuvem];21;27;21;41;79;9;7:09pm;Excelente;11:30pm - 1:30am;0.8;31/01/2022
+Lauro de Freitas;BA;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;83;81;28;6:07pm;Excelente;10:47pm - 12:47am;0.3;31/01/2022
+Macaé;RJ;céu nublado;23;27;23;60;97;14;6:33pm;Excelente;11:01pm - 1:01am;0.5;31/01/2022
+Macapá;AP;períodos de chuva ao longo do dia [emoji_chuva];23;26;23;75;93;18;6:39pm;Excelente;11:37pm - 1:37am;7.8;31/01/2022
+Maceió;AL;períodos de chuva ao longo do dia [emoji_chuva];26;27;26;83;78;24;5:52pm;Excelente;10:35pm - 12:35am;2.2;31/01/2022
+Marechal Deodoro;AL;períodos de chuva ao longo do dia [emoji_chuva];26;27;26;75;78;24;5:52pm;Excelente;10:35pm - 12:35am;2.2;31/01/2022
+Morro de São Paulo;BA;céu parcialmente nublado [emoji_nuvem];27;28;27;53;81;31;6:09pm;Excelente;10:48pm - 12:48am;0.4;31/01/2022
+Natal;RN;períodos de chuva ao longo do dia [emoji_chuva];26;29;26;71;79;19;5:45pm;Excelente;10:32pm - 12:32am;2.2;31/01/2022
+Niterói;RJ;chuvas leves [emoji_chuva_sol];23;24;23;70;94;5;6:40pm;Excelente;11:07pm - 1:07am;1.2;31/01/2022
+Olinda;PE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;76;79;30;5:47pm;Excelente;10:31pm - 12:31am;2.2;31/01/2022
+Paranaguá;PR;chuvas leves [emoji_chuva_sol];23;26;23;100;88;18;7:05pm;Excelente;11:30pm - 1:30am;1.2;31/01/2022
+Paraty;RJ;períodos de chuva ao longo do dia [emoji_chuva];22;23;22;79;89;15;6:48pm;Excelente;11:14pm - 1:14am;1.2;31/01/2022
+Parnaíba;PI;céu parcialmente nublado [emoji_nuvem];26;28;26;60;79;37;6:07pm;Excelente;10:59pm - 12:59am;2.4;31/01/2022
+Pedra Grande;RN;períodos de chuva ao longo do dia [emoji_chuva];25;28;25;76;82;16;5:49pm;Excelente;10:33pm - 12:33am;2.2;31/01/2022
+Peruíbe;SP;céu nublado [emoji_nuvem];24;25;24;70;80;8;6:55pm;Excelente;11:21pm - 1:21am;1.6;31/01/2022
+Ponta Negra;RN;períodos de chuva ao longo do dia [emoji_chuva];26;29;26;71;79;19;5:45pm;Excelente;10:32pm - 12:32am;2.2;31/01/2022
+Porto de Galinhas;PE;períodos de chuva ao longo do dia [emoji_chuva];26;28;26;75;79;22;5:48pm;Excelente;10:32pm - 12:32am;2.2;31/01/2022
+Porto Seguro;BA;períodos de chuva ao longo do dia [emoji_chuva];25;28;25;78;88;33;6:14pm;Excelente;10:50pm - 12:50am;1.2;31/01/2022
+Praia Grande;SP;céu nublado [emoji_nuvem];24;25;24;70;80;8;6:55pm;Excelente;11:21pm - 1:21am;1.6;31/01/2022
+Recife;PE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;76;79;30;5:47pm;Excelente;10:31pm - 12:31am;2.2;31/01/2022
+Rio das Ostras;RJ;céu nublado;23;27;23;60;97;14;6:33pm;Excelente;11:01pm - 1:01am;0.5;31/01/2022
+Rio de Janeiro;RJ;chuvas leves [emoji_chuva_sol];23;24;23;70;94;5;6:40pm;Excelente;11:07pm - 1:07am;1.2;31/01/2022
+Salvador;BA;céu parcialmente nublado [emoji_nuvem];26;27;26;52;85;28;6:08pm;Excelente;10:48pm - 12:48am;0.3;31/01/2022
+Santos;SP;céu parcialmente nublado [emoji_nuvem];24;24;24;58;77;10;6:54pm;Excelente;11:20pm - 1:20am;1.6;31/01/2022
+São Luis;MA;períodos de chuva ao longo do dia [emoji_chuva];24;27;24;72;88;32;6:18pm;Excelente;11:11pm - 1:11am;5.6;31/01/2022
+São Mateus;ES;períodos de chuva ao longo do dia [emoji_chuva];26;27;26;80;86;43;6:20pm;Excelente;10:53pm - 12:53am;2.2;31/01/2022
+São Sebastião;SP;céu parcialmente nublado [emoji_nuvem];24;24;24;50;80;22;6:50pm;Excelente;11:16pm - 1:16am;1.1;31/01/2022
+Tibau do Sul;RN;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;89;76;22;5:45pm;Excelente;10:32pm - 12:32am;2.2;31/01/2022
+Ubatuba;SP;períodos de chuva ao longo do dia [emoji_chuva];22;23;22;79;89;15;6:48pm;Excelente;11:14pm - 1:14am;1.2;31/01/2022
+Vila Velha;ES;céu parcialmente nublado [emoji_nuvem];26;28;26;20;87;29;6:25pm;Excelente;10:55pm - 12:55am;1.5;31/01/2022
+Angra dos Reis;RJ;céu parcialmente nublado [emoji_nuvem];25;25;25;38;79;19;6:28pm;Mediano;7:54pm - 9:54pm;0.8;26/02/2022
+Aracaju;SE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;73;76;26;5:51pm;Mediano;7:23pm - 9:23pm;1.7;26/02/2022
+Arraial do Cabo;RJ;céu parcialmente nublado [emoji_nuvem];25;26;25;5;87;23;6:19pm;Mediano;7:45pm - 9:45pm;0.9;26/02/2022
+Balneário Camboriu;SC;céu parcialmente nublado [emoji_nuvem];25;27;25;55;85;25;6:48pm;Mediano;8:12pm - 10:12pm;0.7;26/02/2022
+Barreirinhas;MA;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;72;80;36;6:07pm;Mediano;7:45pm - 9:45pm;2.1;26/02/2022
+Bertioga;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;61;82;17;6:36pm;Mediano;8:02pm - 10:02pm;1.3;26/02/2022
+Bombinhas;SC;períodos de chuva ao longo do dia [emoji_chuva];24;28;24;53;88;28;6:48pm;Mediano;8:12pm - 10:12pm;0.7;26/02/2022
+Búzios;RJ;céu parcialmente nublado [emoji_nuvem];25;25;25;10;88;23;6:18pm;Mediano;7:44pm - 9:44pm;1.0;26/02/2022
+Cabo Frio;RJ;céu parcialmente nublado [emoji_nuvem];25;26;25;5;87;23;6:19pm;Mediano;7:45pm - 9:45pm;0.9;26/02/2022
+Enseada;SP;céu parcialmente nublado [emoji_nuvem];23;25;23;55;86;22;6:31pm;Mediano;7:57pm - 9:57pm;0.9;26/02/2022
+Fernando de Noronha;PE;sol [emoji_sol];27;28;27;0;71;28;6:28pm;Mediano;8:04pm - 10:04pm;1.7;26/02/2022
+Florianópolis;SC;períodos de chuva ao longo do dia [emoji_chuva];24;27;24;81;88;33;6:49pm;Mediano;8:12pm - 10:12pm;0.7;26/02/2022
+Fortaleza;CE;céu parcialmente nublado [emoji_nuvem];27;28;27;24;73;32;5:53pm;Mediano;7:29pm - 9:29pm;2.0;26/02/2022
+Guarujá;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;61;82;17;6:37pm;Mediano;8:02pm - 10:02pm;1.3;26/02/2022
+Ilha Bela;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;19;81;25;6:33pm;Mediano;7:59pm - 9:59pm;0.9;26/02/2022
+Ilhéus;BA;céu parcialmente nublado [emoji_nuvem];25;28;25;30;78;19;6:01pm;Mediano;7:32pm - 9:32pm;1.7;26/02/2022
+Itanhaém;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;65;81;22;6:37pm;Mediano;8:03pm - 10:03pm;1.3;26/02/2022
+Jaboatão dos Guararapes;PE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;55;75;19;5:41pm;Mediano;7:14pm - 9:14pm;1.7;26/02/2022
+Jijoca de Jericoacoara;CE;chuva fraca;27;28;27;54;80;38;6:02pm;Mediano;7:39pm - 9:39pm;2.1;26/02/2022
+João Pessoa;PB;céu parcialmente nublado [emoji_nuvem];27;28;27;29;72;21;5:40pm;Mediano;7:14pm - 9:14pm;1.7;26/02/2022
+Lagoinha;SP;períodos de chuva ao longo do dia [emoji_chuva];24;27;24;81;88;33;6:49pm;Mediano;8:12pm - 10:12pm;0.7;26/02/2022
+Lauro de Freitas;BA;céu parcialmente nublado [emoji_nuvem];28;28;28;64;68;26;5:58pm;Mediano;7:29pm - 9:29pm;1.7;26/02/2022
+Macaé;RJ;períodos de chuva ao longo do dia [emoji_chuva];23;24;23;77;92;23;6:17pm;Mediano;7:43pm - 9:43pm;1.0;26/02/2022
+Macapá;AP;céu parcialmente nublado [emoji_nuvem];26;29;26;29;86;24;6:39pm;Mediano;8:20pm - 10:20pm;4.1;26/02/2022
+Maceió;AL;céu parcialmente nublado [emoji_nuvem];27;28;27;46;74;23;5:45pm;Mediano;7:18pm - 9:18pm;1.7;26/02/2022
+Marechal Deodoro;AL;céu parcialmente nublado [emoji_nuvem];27;28;27;46;74;23;5:45pm;Mediano;7:18pm - 9:18pm;1.7;26/02/2022
+Morro de São Paulo;BA;céu parcialmente nublado [emoji_nuvem];27;28;27;33;73;21;6:00pm;Mediano;7:31pm - 9:31pm;1.7;26/02/2022
+Natal;RN;sol [emoji_sol];27;29;27;0;67;22;5:40pm;Mediano;7:15pm - 9:15pm;1.7;26/02/2022
+Niterói;RJ;céu parcialmente nublado [emoji_nuvem];25;25;25;10;86;20;6:23pm;Mediano;7:49pm - 9:49pm;1.0;26/02/2022
+Olinda;PE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;55;75;19;5:41pm;Mediano;7:14pm - 9:14pm;1.7;26/02/2022
+Paranaguá;PR;céu parcialmente nublado [emoji_nuvem];26;27;26;44;78;25;6:47pm;Mediano;8:12pm - 10:12pm;1.0;26/02/2022
+Paraty;RJ;céu parcialmente nublado [emoji_nuvem];23;25;23;55;86;22;6:31pm;Mediano;7:57pm - 9:57pm;1.0;26/02/2022
+Parnaíba;PI;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;70;80;32;6:05pm;Mediano;7:42pm - 9:42pm;2.0;26/02/2022
+Pedra Grande;RN;céu parcialmente nublado [emoji_nuvem];27;29;27;53;75;17;5:43pm;Mediano;7:15pm - 9:15pm;1.7;26/02/2022
+Peruíbe;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;65;81;22;6:37pm;Mediano;8:03pm - 10:03pm;1.3;26/02/2022
+Ponta Negra;RN;sol [emoji_sol];27;29;27;0;67;22;5:40pm;Mediano;7:15pm - 9:15pm;1.7;26/02/2022
+Porto de Galinhas;PE;céu parcialmente nublado [emoji_nuvem];27;28;27;56;75;20;5:41pm;Mediano;7:14pm - 9:14pm;1.7;26/02/2022
+Porto Seguro;BA;céu parcialmente nublado [emoji_nuvem];26;27;26;12;76;23;6:02pm;Mediano;7:32pm - 9:32pm;1.7;26/02/2022
+Praia Grande;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;65;81;22;6:37pm;Mediano;8:03pm - 10:03pm;1.3;26/02/2022
+Recife;PE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;55;75;19;5:41pm;Mediano;7:14pm - 9:14pm;1.7;26/02/2022
+Rio das Ostras;RJ;períodos de chuva ao longo do dia [emoji_chuva];23;24;23;71;92;23;6:17pm;Mediano;7:43pm - 9:43pm;1.0;26/02/2022
+Rio de Janeiro;RJ;céu parcialmente nublado [emoji_nuvem];25;25;25;10;86;20;6:23pm;Mediano;7:49pm - 9:49pm;1.0;26/02/2022
+Salvador;BA;céu parcialmente nublado [emoji_nuvem];27;27;27;50;71;26;5:59pm;Mediano;7:30pm - 9:30pm;1.7;26/02/2022
+Santos;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;61;82;17;6:37pm;Mediano;8:02pm - 10:02pm;1.3;26/02/2022
+São Luis;MA;períodos de chuva ao longo do dia [emoji_chuva];26;28;26;83;87;29;6:15pm;Mediano;7:54pm - 9:54pm;4.7;26/02/2022
+São Mateus;ES;céu parcialmente nublado [emoji_nuvem];26;26;26;7;76;18;6:07pm;Mediano;7:35pm - 9:35pm;1.7;26/02/2022
+São Sebastião;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;19;81;25;6:33pm;Mediano;7:59pm - 9:59pm;0.9;26/02/2022
+Tibau do Sul;RN;céu parcialmente nublado [emoji_nuvem];27;28;27;29;70;22;5:40pm;Mediano;7:14pm - 9:14pm;1.7;26/02/2022
+Ubatuba;SP;céu parcialmente nublado [emoji_nuvem];23;25;23;55;86;22;6:31pm;Mediano;7:57pm - 9:57pm;1.0;26/02/2022
+Vila Velha;ES;céu parcialmente nublado [emoji_nuvem];26;26;26;33;78;13;6:10pm;Mediano;7:37pm - 9:37pm;1.1;26/02/2022
+Angra dos Reis;RJ;céu parcialmente nublado [emoji_nuvem];24;26;24;52;83;8;18:27;Mediano;20:56 - 22:56;0,9;27/02/2022
+Aracaju;SE;céu parcialmente nublado [emoji_nuvem];27;28;27;63;69;23;17:51;Mediano;20:25 - 22:25;1,9;27/02/2022
+Arraial do Cabo;RJ;céu parcialmente nublado [emoji_nuvem];24;26;24;23;89;22;18:18;Mediano;20:47 - 22:47;1,0;27/02/2022
+Balneário Camboriu;SC;períodos de chuva ao longo do dia [emoji_chuva];24;26;24;72;88;17;18:47;Mediano;21:14 - 23:14;0,8;27/02/2022
+Barreirinhas;MA;períodos de chuva ao longo do dia [emoji_chuva];28;28;28;62;78;40;18:07;Mediano;20:46 - 22:46;2,2;27/02/2022
+Bertioga;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;28;80;20;18:35;Mediano;21:04 - 23:04;1,5;27/02/2022
+Bombinhas;SC;chuva fraca;24;26;24;67;91;16;18:47;Mediano;21:14 - 23:14;0,8;27/02/2022
+Búzios;RJ;céu parcialmente nublado [emoji_nuvem];24;25;24;23;90;25;18:17;Mediano;20:46 - 22:46;1,1;27/02/2022
+Cabo Frio;RJ;céu parcialmente nublado [emoji_nuvem];24;26;24;23;89;22;18:18;Mediano;20:47 - 22:47;1,0;27/02/2022
+Enseada;SP;céu parcialmente nublado [emoji_nuvem];23;24;23;36;88;19;18:30;Mediano;20:59 - 22:59;1,0;27/02/2022
+Fernando de Noronha;PE;céu parcialmente nublado [emoji_nuvem];27;27;27;59;76;33;18:28;Mediano;21:05 - 23:05;1,9;27/02/2022
+Florianópolis;SC;chuva fraca;23;27;23;67;94;17;18:48;Mediano;21:14 - 23:14;0,7;27/02/2022
+Fortaleza;CE;céu parcialmente nublado [emoji_nuvem];27;28;27;64;77;27;17:52;Mediano;20:31 - 22:31;2,1;27/02/2022
+Guarujá;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;28;80;20;18:36;Mediano;21:05 - 23:05;1,5;27/02/2022
+Ilha Bela;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;41;82;28;18:32;Mediano;21:01 - 23:01;1,0;27/02/2022
+Ilhéus;BA;chuva fraca;23;28;23;96;85;23;18:01;Mediano;20:34 - 22:34;1,9;27/02/2022
+Itanhaém;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;58;81;31;18:36;Mediano;21:05 - 23:05;1,5;27/02/2022
+Jaboatão dos Guararapes;PE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;57;78;24;17:40;Mediano;20:16 - 22:16;1,9;27/02/2022
+Jijoca de Jericoacoara;CE;céu parcialmente nublado [emoji_nuvem];27;28;27;38;83;40;18:01;Mediano;20:41 - 22:41;2,2;27/02/2022
+João Pessoa;PB;céu parcialmente nublado [emoji_nuvem];26;28;26;47;75;18;17:40;Mediano;20:16 - 22:16;1,9;27/02/2022
+Lagoinha;SP;chuva fraca;23;27;23;67;94;17;18:48;Mediano;21:14 - 23:14;0,7;27/02/2022
+Lauro de Freitas;BA;céu parcialmente nublado [emoji_nuvem];27;28;27;25;65;28;17:58;Mediano;20:31 - 22:31;1,9;27/02/2022
+Macaé;RJ;névoa;22;26;22;27;94;18;18:17;Mediano;20:46 - 22:46;1,1;27/02/2022
+Macapá;AP;céu parcialmente nublado [emoji_nuvem];24;27;24;60;93;23;18:39;Mediano;21:21 - 23:21;4,4;27/02/2022
+Maceió;AL;chuva fraca;26;28;26;80;77;27;17:45;Mediano;20:19 - 22:19;1,9;27/02/2022
+Marechal Deodoro;AL;chuva fraca;26;28;26;80;77;27;17:45;Mediano;20:20 - 22:20;1,9;27/02/2022
+Morro de São Paulo;BA;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;72;70;28;17:59;Mediano;20:33 - 22:33;1,9;27/02/2022
+Natal;RN;céu parcialmente nublado [emoji_nuvem];26;28;26;47;74;23;17:40;Mediano;20:17 - 22:17;1,9;27/02/2022
+Niterói;RJ;céu parcialmente nublado [emoji_nuvem];24;27;24;20;87;11;18:22;Mediano;20:51 - 22:51;1,1;27/02/2022
+Olinda;PE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;57;78;24;17:40;Mediano;20:16 - 22:16;1,9;27/02/2022
+Paranaguá;PR;céu nublado [emoji_nuvem];26;27;26;90;74;24;18:46;Mediano;21:14 - 23:14;1,1;27/02/2022
+Paraty;RJ;céu parcialmente nublado [emoji_nuvem];23;24;23;36;88;19;18:30;Mediano;20:59 - 22:59;1,1;27/02/2022
+Parnaíba;PI;céu parcialmente nublado [emoji_nuvem];27;28;27;24;80;42;18:04;Mediano;20:44 - 22:44;2,1;27/02/2022
+Pedra Grande;RN;chuva fraca;25;28;25;54;82;19;17:42;Mediano;20:17 - 22:17;1,9;27/02/2022
+Peruíbe;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;58;81;31;18:36;Mediano;21:05 - 23:05;1,5;27/02/2022
+Ponta Negra;RN;céu parcialmente nublado [emoji_nuvem];26;28;26;47;74;23;17:40;Mediano;20:17 - 22:17;1,9;27/02/2022
+Porto de Galinhas;PE;períodos de chuva ao longo do dia [emoji_chuva];26;28;26;62;78;23;17:41;Mediano;20:16 - 22:16;1,9;27/02/2022
+Porto Seguro;BA;períodos de chuva ao longo do dia [emoji_chuva];26;27;26;86;78;21;18:02;Mediano;20:34 - 22:34;1,9;27/02/2022
+Praia Grande;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;58;81;31;18:36;Mediano;21:05 - 23:05;1,5;27/02/2022
+Recife;PE;períodos de chuva ao longo do dia [emoji_chuva];27;28;27;57;78;24;17:40;Mediano;20:16 - 22:16;1,9;27/02/2022
+Rio das Ostras;RJ;névoa;22;26;22;27;94;18;18:17;Mediano;20:46 - 22:46;1,1;27/02/2022
+Rio de Janeiro;RJ;céu parcialmente nublado [emoji_nuvem];24;27;24;20;87;11;18:23;Mediano;20:52 - 22:52;1,1;27/02/2022
+Salvador;BA;céu parcialmente nublado [emoji_nuvem];27;28;27;31;67;28;17:58;Mediano;20:32 - 22:32;1,9;27/02/2022
+Santos;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;28;80;20;18:36;Mediano;21:05 - 23:05;1,5;27/02/2022
+São Luis;MA;períodos de chuva ao longo do dia [emoji_chuva];26;28;26;74;88;24;18:15;Mediano;20:55 - 22:55;4,9;27/02/2022
+São Mateus;ES;céu parcialmente nublado [emoji_nuvem];25;27;25;63;81;23;18:06;Mediano;20:37 - 22:37;1,9;27/02/2022
+São Sebastião;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;41;82;28;18:32;Mediano;21:01 - 23:01;1,0;27/02/2022
+Tibau do Sul;RN;céu parcialmente nublado [emoji_nuvem];27;28;27;54;74;26;17:40;Mediano;20:16 - 22:16;1,9;27/02/2022
+Ubatuba;SP;céu parcialmente nublado [emoji_nuvem];23;24;23;36;88;19;18:30;Mediano;20:59 - 22:59;1,1;27/02/2022
+Vila Velha;ES;céu parcialmente nublado [emoji_nuvem];25;27;25;55;81;4;18:09;Mediano;20:39 - 22:39;1,3;27/02/2022
+Angra dos Reis;RJ;céu parcialmente nublado [emoji_nuvem];27;27;27;33;78;21;18:26;Bom;21:54 - 23:54;1,0;28/02/2022
+Aracaju;SE;céu parcialmente nublado [emoji_nuvem];27;28;27;13;64;23;17:50;Bom;21:23 - 23:23;2,1;28/02/2022
+Arraial do Cabo;RJ;céu parcialmente nublado [emoji_nuvem];24;26;24;15;81;37;18:17;Bom;21:45 - 23:45;1,0;28/02/2022
+Balneário Camboriu;SC;céu parcialmente nublado [emoji_nuvem];26;26;26;14;81;23;18:46;Bom;22:13 - 12:13;0,9;28/02/2022
+Barreirinhas;MA;céu parcialmente nublado [emoji_nuvem];28;28;28;19;76;39;18:06;Bom;21:44 - 23:44;2,3;28/02/2022
+Bertioga;SP;céu parcialmente nublado [emoji_nuvem];27;27;27;46;74;17;18:34;Bom;22:03 - 12:03;1,6;28/02/2022
+Bombinhas;SC;céu parcialmente nublado [emoji_nuvem];27;27;27;17;77;28;18:46;Bom;22:13 - 12:13;0,8;28/02/2022
+Búzios;RJ;céu parcialmente nublado [emoji_nuvem];24;26;24;6;80;35;18:16;Bom;21:45 - 23:45;1,1;28/02/2022
+Cabo Frio;RJ;céu parcialmente nublado [emoji_nuvem];24;26;24;15;81;37;18:17;Bom;21:45 - 23:45;1,0;28/02/2022
+Enseada;SP;céu parcialmente nublado [emoji_nuvem];25;25;25;13;79;24;18:29;Bom;21:57 - 23:57;1,1;28/02/2022
+Fernando de Noronha;PE;céu parcialmente nublado [emoji_nuvem];27;27;27;63;74;23;18:27;Bom;22:04 - 12:04;2,1;28/02/2022
+Florianópolis;SC;chuva forte ou moderada;26;29;26;67;83;36;18:47;Bom;22:13 - 12:13;0,8;28/02/2022
+Fortaleza;CE;céu parcialmente nublado [emoji_nuvem];27;28;27;5;69;32;17:52;Bom;21:29 - 23:29;2,2;28/02/2022
+Guarujá;SP;céu parcialmente nublado [emoji_nuvem];27;27;27;46;74;17;18:35;Bom;22:03 - 12:03;1,6;28/02/2022
+Ilha Bela;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;5;81;18;18:31;Bom;21:59 - 23:59;1,1;28/02/2022
+Ilhéus;BA;períodos de chuva ao longo do dia [emoji_chuva];27;27;27;84;70;15;18:00;Bom;21:32 - 23:32;2,1;28/02/2022
+Itanhaém;SP;céu parcialmente nublado [emoji_nuvem];27;27;27;21;79;14;18:35;Bom;22:04 - 12:04;1,6;28/02/2022
+Jaboatão dos Guararapes;PE;chuva fraca;27;28;27;68;74;26;17:40;Bom;21:14 - 23:14;2,1;28/02/2022
+Jijoca de Jericoacoara;CE;céu parcialmente nublado [emoji_nuvem];27;29;27;11;77;35;18:01;Bom;21:39 - 23:39;2,3;28/02/2022
+João Pessoa;PB;chuva fraca;27;28;27;51;73;22;17:39;Bom;21:14 - 23:14;2,1;28/02/2022
+Lagoinha;SP;chuva forte ou moderada;26;29;26;67;83;36;18:47;Bom;22:13 - 12:13;0,8;28/02/2022
+Lauro de Freitas;BA;céu parcialmente nublado [emoji_nuvem];27;28;27;36;68;18;17:57;Bom;21:29 - 23:29;2,1;28/02/2022
+Macaé;RJ;céu parcialmente nublado [emoji_nuvem];26;26;26;1;76;25;18:16;Bom;21:44 - 23:44;1,1;28/02/2022
+Macapá;AP;céu parcialmente nublado [emoji_nuvem];28;28;28;15;74;15;18:38;Bom;22:19 - 12:19;4,7;28/02/2022
+Maceió;AL;períodos de chuva ao longo do dia [emoji_chuva];28;28;28;72;71;18;17:44;Bom;21:18 - 23:18;2,1;28/02/2022
+Marechal Deodoro;AL;céu parcialmente nublado [emoji_nuvem];28;28;28;46;71;18;17:44;Bom;21:18 - 23:18;2,1;28/02/2022
+Morro de São Paulo;BA;céu parcialmente nublado [emoji_nuvem];27;27;27;20;69;19;17:59;Bom;21:31 - 23:31;2,1;28/02/2022
+Natal;RN;céu parcialmente nublado [emoji_nuvem];28;29;28;50;70;24;17:40;Bom;21:15 - 23:15;2,1;28/02/2022
+Niterói;RJ;céu parcialmente nublado [emoji_nuvem];27;27;27;2;71;9;18:22;Bom;21:50 - 23:50;1,1;28/02/2022
+Olinda;PE;chuva fraca;27;28;27;68;74;26;17:40;Bom;21:14 - 23:14;2,1;28/02/2022
+Paranaguá;PR;céu parcialmente nublado [emoji_nuvem];26;27;26;4;79;14;18:45;Bom;22:12 - 12:12;1,2;28/02/2022
+Paraty;RJ;céu parcialmente nublado [emoji_nuvem];25;25;25;13;79;24;18:29;Bom;21:57 - 23:57;1,1;28/02/2022
+Parnaíba;PI;céu parcialmente nublado [emoji_nuvem];27;28;27;12;74;35;18:04;Bom;21:42 - 23:42;2,3;28/02/2022
+Pedra Grande;RN;céu parcialmente nublado [emoji_nuvem];28;28;28;33;68;17;17:42;Bom;21:15 - 23:15;2,1;28/02/2022
+Peruíbe;SP;céu parcialmente nublado [emoji_nuvem];27;27;27;21;79;14;18:35;Bom;22:04 - 12:04;1,6;28/02/2022
+Ponta Negra;RN;céu parcialmente nublado [emoji_nuvem];28;29;28;50;70;24;17:40;Bom;21:15 - 23:15;2,1;28/02/2022
+Porto de Galinhas;PE;chuva fraca;28;28;28;58;73;22;17:41;Bom;21:14 - 23:14;2,1;28/02/2022
+Porto Seguro;BA;céu parcialmente nublado [emoji_nuvem];27;27;27;30;70;27;18:01;Bom;21:32 - 23:32;2,1;28/02/2022
+Praia Grande;SP;céu parcialmente nublado [emoji_nuvem];27;27;27;21;79;14;18:35;Bom;22:04 - 12:04;1,6;28/02/2022
+Recife;PE;chuva fraca;27;28;27;68;74;26;17:40;Bom;21:14 - 23:14;2,1;28/02/2022
+Rio das Ostras;RJ;céu parcialmente nublado [emoji_nuvem];26;26;26;1;76;25;18:16;Bom;21:44 - 23:44;1,1;28/02/2022
+Rio de Janeiro;RJ;céu parcialmente nublado [emoji_nuvem];27;27;27;2;71;9;18:22;Bom;21:50 - 23:50;1,1;28/02/2022
+Salvador;BA;céu parcialmente nublado [emoji_nuvem];27;27;27;29;69;18;17:58;Bom;21:30 - 23:30;2,1;28/02/2022
+Santos;SP;céu parcialmente nublado [emoji_nuvem];27;27;27;46;74;17;18:35;Bom;22:03 - 12:03;1,6;28/02/2022
+São Luis;MA;períodos de chuva ao longo do dia [emoji_chuva];27;27;27;77;84;31;18:15;Bom;21:53 - 23:53;5,2;28/02/2022
+São Mateus;ES;muito sol [emoji_sol];26;27;26;0;68;19;18:05;Bom;21:35 - 23:35;2,1;28/02/2022
+São Sebastião;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;5;81;18;18:31;Bom;21:59 - 23:59;1,1;28/02/2022
+Tibau do Sul;RN;céu parcialmente nublado [emoji_nuvem];27;28;27;72;76;26;17:39;Bom;21:14 - 23:14;2,1;28/02/2022
+Ubatuba;SP;céu parcialmente nublado [emoji_nuvem];25;25;25;13;79;24;18:29;Bom;21:57 - 23:57;1,1;28/02/2022
+Vila Velha;ES;muito sol [emoji_sol];26;27;26;0;72;22;18:09;Bom;21:38 - 23:38;1,4;28/02/2022
+Angra dos Reis;RJ;céu parcialmente nublado [emoji_nuvem];25;26;25;7;79;18;18:22;Mediano;13:27 - 15:27;1,1;05/03/2022
+Aracaju;SE;céu parcialmente nublado [emoji_nuvem];27;27;27;52;76;22;17:48;Mediano;24:58 - 14:58;2,2;05/03/2022
+Arraial do Cabo;RJ;céu nublado [emoji_nuvem];26;26;26;100;81;36;18:13;Mediano;13:18 - 15:18;1,2;05/03/2022
+Balneário Camboriu;SC;céu parcialmente nublado [emoji_nuvem];26;26;26;7;78;14;18:41;Mediano;13:44 - 15:44;1,0;05/03/2022
+Barreirinhas;MA;céu parcialmente nublado [emoji_nuvem];28;28;28;67;76;24;18:05;Mediano;13:21 - 15:21;2,5;05/03/2022
+Bertioga;SP;períodos de chuva ao longo do dia [emoji_chuva];26;26;26;83;75;10;18:30;Mediano;13:35 - 15:35;1,3;05/03/2022
+Bombinhas;SC;céu parcialmente nublado [emoji_nuvem];26;26;26;7;76;14;18:41;Mediano;13:44 - 15:44;1,0;05/03/2022
+Búzios;RJ;céu parcialmente nublado [emoji_nuvem];24;26;24;4;81;32;18:12;Mediano;13:17 - 15:17;1,3;05/03/2022
+Cabo Frio;RJ;céu nublado [emoji_nuvem];26;26;26;100;81;36;18:13;Mediano;13:18 - 15:18;1,2;05/03/2022
+Enseada;SP;céu parcialmente nublado [emoji_nuvem];24;27;24;14;75;16;18:24;Mediano;13:29 - 15:29;1,2;05/03/2022
+Fernando de Noronha;PE;períodos de chuva ao longo do dia [emoji_chuva];27;27;27;87;77;19;18:26;Mediano;13:40 - 15:40;2,2;05/03/2022
+Florianópolis;SC;céu parcialmente nublado [emoji_nuvem];26;27;26;12;75;23;18:41;Mediano;13:44 - 15:44;0,9;05/03/2022
+Fortaleza;CE;céu parcialmente nublado [emoji_nuvem];27;28;27;52;75;16;17:50;Mediano;13:05 - 15:05;2,5;05/03/2022
+Guarujá;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;11;75;10;18:30;Mediano;13:35 - 15:35;1,3;05/03/2022
+Ilha Bela;SP;céu parcialmente nublado [emoji_nuvem];26;26;26;15;82;6;18:27;Mediano;13:32 - 15:32;1,2;05/03/2022
+Ilhéus;BA;períodos de chuva ao longo do dia [emoji_chuva];26;27;26;76;76;11;17:57;Mediano;13:06 - 15:06;2,2;05/03/2022
+Itanhaém;SP;períodos de chuva ao longo do dia [emoji_chuva];27;27;27;71;78;11;18:31;Mediano;13:36 - 15:36;1,3;05/03/2022
+Jaboatão dos Guararapes;PE;chuva fraca;27;27;27;69;79;23;17:38;Mediano;24:50 - 14:50;2,2;05/03/2022
+Jijoca de Jericoacoara;CE;céu parcialmente nublado [emoji_nuvem];28;28;28;69;75;21;18:00;Mediano;13:16 - 15:16;2,5;05/03/2022
+João Pessoa;PB;céu parcialmente nublado [emoji_nuvem];27;28;27;70;78;19;17:37;Mediano;24:50 - 14:50;2,2;05/03/2022
+Lagoinha;SP;céu parcialmente nublado [emoji_nuvem];26;27;26;12;75;23;18:41;Mediano;13:44 - 15:44;0,9;05/03/2022
+Lauro de Freitas;BA;céu parcialmente nublado [emoji_nuvem];27;27;27;53;70;6;17:54;Mediano;13:04 - 15:04;2,2;05/03/2022
+Macaé;RJ;céu parcialmente nublado [emoji_nuvem];25;26;25;5;76;23;18:12;Mediano;13:17 - 15:17;1,3;05/03/2022
+Macapá;AP;céu parcialmente nublado [emoji_nuvem];27;27;27;31;79;15;18:37;Mediano;13:56 - 15:56;5,2;05/03/2022
+Maceió;AL;chuva fraca;27;28;27;87;77;18;17:42;Mediano;24:54 - 14:54;2,2;05/03/2022
+Marechal Deodoro;AL;chuva fraca;27;28;27;87;77;18;17:42;Mediano;24:54 - 14:54;2,2;05/03/2022
+Morro de São Paulo;BA;céu parcialmente nublado [emoji_nuvem];27;27;27;20;72;6;17:56;Mediano;13:06 - 15:06;2,2;05/03/2022
+Natal;RN;períodos de chuva ao longo do dia [emoji_chuva];26;29;26;61;81;18;17:38;Mediano;24:51 - 14:51;2,2;05/03/2022
+Niterói;RJ;céu parcialmente nublado [emoji_nuvem];26;27;26;11;81;19;18:17;Mediano;13:22 - 15:22;1,3;05/03/2022
+Olinda;PE;chuva fraca;27;27;27;68;80;23;17:38;Mediano;24:50 - 14:50;2,2;05/03/2022
+Paranaguá;PR;céu parcialmente nublado [emoji_nuvem];27;27;27;23;85;22;18:40;Mediano;13:44 - 15:44;1,3;05/03/2022
+Paraty;RJ;céu parcialmente nublado [emoji_nuvem];23;27;23;17;88;15;18:24;Mediano;13:29 - 15:29;1,3;05/03/2022
+Parnaíba;PI;céu parcialmente nublado [emoji_nuvem];27;28;27;30;77;23;18:03;Mediano;13:19 - 15:19;2,5;05/03/2022
+Pedra Grande;RN;chuva fraca;26;28;26;100;87;18;17:40;Mediano;24:51 - 14:51;2,2;05/03/2022
+Peruíbe;SP;períodos de chuva ao longo do dia [emoji_chuva];26;27;26;70;86;15;18:31;Mediano;13:36 - 15:36;1,3;05/03/2022
+Ponta Negra;RN;períodos de chuva ao longo do dia [emoji_chuva];26;29;26;61;81;18;17:38;Mediano;24:51 - 14:51;2,2;05/03/2022
+Porto de Galinhas;PE;chuva fraca;26;27;26;78;84;18;17:38;Mediano;24:50 - 14:50;2,2;05/03/2022
+Porto Seguro;BA;céu parcialmente nublado [emoji_nuvem];27;27;27;29;80;21;17:58;Mediano;13:06 - 15:06;2,2;05/03/2022
+Praia Grande;SP;períodos de chuva ao longo do dia [emoji_chuva];26;27;26;70;86;15;18:31;Mediano;13:36 - 15:36;1,3;05/03/2022
+Recife;PE;chuva fraca;27;27;27;68;80;23;17:38;Mediano;24:50 - 14:50;2,2;05/03/2022
+Rio das Ostras;RJ;céu parcialmente nublado [emoji_nuvem];24;26;24;3;86;35;18:12;Mediano;13:17 - 15:17;1,3;05/03/2022
+Rio de Janeiro;RJ;céu parcialmente nublado [emoji_nuvem];26;27;26;11;81;19;18:17;Mediano;13:22 - 15:22;1,3;05/03/2022
+Salvador;BA;céu parcialmente nublado [emoji_nuvem];27;27;27;39;74;6;17:55;Mediano;13:05 - 15:05;2,2;05/03/2022
+Santos;SP;períodos de chuva ao longo do dia [emoji_chuva];26;26;26;84;83;12;18:30;Mediano;13:35 - 15:35;1,3;05/03/2022
+São Luis;MA;períodos de chuva ao longo do dia [emoji_chuva];25;27;25;82;89;16;18:13;Mediano;13:30 - 15:30;5,7;05/03/2022
+São Mateus;ES;períodos de chuva ao longo do dia [emoji_chuva];26;27;26;78;77;16;18:02;Mediano;13:09 - 15:09;2,2;05/03/2022
+São Sebastião;SP;períodos de chuva ao longo do dia [emoji_chuva];26;26;26;74;84;13;18:27;Mediano;13:32 - 15:32;1,2;05/03/2022
+Tibau do Sul;RN;chuva fraca;27;27;27;68;81;23;17:38;Mediano;24:51 - 14:51;2,2;05/03/2022
+Ubatuba;SP;céu parcialmente nublado [emoji_nuvem];23;27;23;17;88;15;18:24;Mediano;13:29 - 15:29;1,3;05/03/2022
+Vila Velha;ES;períodos de chuva ao longo do dia [emoji_chuva];27;27;27;78;79;23;18:05;Mediano;13:11 - 15:11;1,5;05/03/2022
+Barreirinhas;MA;chuva fraca;26;26;26;100;83;27;18:03;Mediano;11:57 - 13:57;1,8;11/03/2022
+Fernando de Noronha;PE;períodos de chuva ao longo do dia [emoji_chuva];26;27;26;87;82;27;18:24;Mediano;24:18 - 14:18;0,9;11/03/2022
+Fortaleza;CE;chuva fraca;26;27;26;77;86;29;17:48;Mediano;11:43 - 13:43;1,7;11/03/2022
+Jijoca de Jericoacoara;CE;chuva fraca;27;27;27;80;82;28;17:58;Mediano;11:51 - 13:51;1,0;11/03/2022
+Macapá;AP;períodos de chuva ao longo do dia [emoji_chuva];22;24;22;71;96;18;18:36;Mediano;24:26 - 14:26;3,8;11/03/2022
+Parnaíba;PI;chuva fraca;27;27;27;88;82;28;18:01;Mediano;11:54 - 13:54;1,8;11/03/2022
+São Luis;MA;chuva fraca;24;25;24;73;89;13;18:11;Mediano;24:05 - 14:05;4,2;11/03/2022
