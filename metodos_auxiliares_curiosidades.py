@@ -12,20 +12,11 @@ class CuriosidadesClass:
     """
     def __init__(self):
         
-        # mapeamento de meses
-        self.dict_map_mes = {1: 'janeiro',
-                             2: 'fevereiro',
-                             3: 'março',
-                             4: 'abril',
-                             5: 'maio',
-                             6: 'junho',
-                             7: 'julho',
-                             8: 'agosto',
-                             9: 'setembro',
-                             10: 'outubro',
-                             11: 'novembro',
-                             12: 'dezembro'
-                             }
+        # API do Twitter
+        self.twitter_api = TwitterClass()
+        
+        # get meses
+        self.dict_map_mes = self.twitter_api.get_meses()
         
         # dia atual
         print (self.get_dia_atual())
@@ -36,13 +27,10 @@ class CuriosidadesClass:
         # path json curiosidades
         path_curiosidades = os.path.join(self.current_path, "curiosidades.csv")
         
-        # API do Twitter
-        self.twitter_api = TwitterClass()
-        
         # curiosidades
         self.lista_curiosidades = pd.read_csv(path_curiosidades, sep=';', encoding='utf-8', header=None)[0]
         self.modulo = 'curiosidades'
-
+        
     
     def seleciona_curiosidade(self):
         '''
@@ -92,21 +80,30 @@ class CuriosidadesClass:
         Tenta publicar curiosidade
         '''
         
-        # flag de publicação
-        if (self.twitter_api.get_status_twitter() != 1):
-            print ("Flag 0. Não posso publicar!")
-            return
-        
-        # seleciona curiosidade para publicar
-        flag, tweet = self.prepara_tweet()
-        
-        # tweet deu errado
-        if flag == 0:
-            sys.exit(0)
+        try:
+            # flag de publicação
+            if (self.twitter_api.get_status_twitter() != 1):
+                print ("Flag 0. Não posso publicar!")
+                return
+
+            # seleciona curiosidade para publicar
+            flag, tweet = self.prepara_tweet()
+
+            # tweet deu errado
+            if flag == 0:
+                sys.exit(0)
+             
+        except Exception as e:
+            print (e)
 
         # tenta publicar 
         try:
-            self.twitter_api.make_tweet(tweet, self.modulo, "vazio", "vazio")
+            self.twitter_api.make_tweet(tweet=tweet,
+                                        modulo=self.modulo,
+                                        intent="curiosidades",
+                                        lista_atributos=[],
+                                        modo_operacao='padrao',
+                                        tweet_id=0)
             print ('Tweet publicado!')
 
         # algo deu errado

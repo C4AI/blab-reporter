@@ -1,0 +1,105 @@
+cidade;uf;tempo;temperatura;temperatura_max;temperatura_min;nebulosidade;umidade;vento;horario_por_sol;pesca;melhor_horario_pesca;altura_maior_onda;texto_onda;qtd_navios_porto;qtd_navios_chegando;data
+Angra dos Reis;RJ;céu parcialmente nublado;19;19;19;3;76;32;17:41;Bom;18:32 - 20:32;1,0;"Horários de maré alta: 3:46am (1,0m) e 4:41pm (1,0m).
+Horários de maré baixa: 11:26am (0,0m) e 11:12pm (0,3m)";;;13/08/2022
+Aracaju;SE;períodos de chuva ao longo do dia;24;26;24;78;80;23;17:25;Bom;18:10 - 20:10;2,3;"Horários de maré alta: 5:07am (2,3m) e 5:31pm (2,3m).
+Horários de maré baixa: 12:19pm (0,0m) e 11:55pm (0,0m)";;;13/08/2022
+Arraial do Cabo;RJ;sol;21;21;21;0;67;35;17:32;Bom;18:22 - 20:22;1,1;"Horários de maré alta: 3:14am (1,1m) e 4:09pm (1,1m).
+Horários de maré baixa: 10:51am (0,0m) e 10:37pm (0,4m)";;;13/08/2022
+Balneï¿½rio Camboriu;SC;céu parcialmente nublado;17;18;17;62;94;21;17:53;Bom;18:46 - 20:46;0,9;"Horários de maré alta: 3:19am (0,9m) e 4:14pm (0,9m).
+Horários de maré baixa: 11:02am (0,0m) e 10:48pm (0,3m)";;;13/08/2022
+Barreirinhas;MA;céu parcialmente nublado;27;27;27;11;79;38;17:55;Bom;18:38 - 20:38;2,6;"Horários de maré alta: 6:00am (2,6m) e 6:26pm (2,5m).
+Horário de maré baixa: 6:43am (2,6m)";;;13/08/2022
+Bertioga;SP;céu parcialmente nublado;19;19;19;2;83;27;17:47;Bom;18:39 - 20:39;1,4;"Horários de maré alta: 3:04am (1,4m) e 3:42pm (1,4m).
+Horários de maré baixa: 10:11am (0,0m) e 9:52pm (0,5m)";;;13/08/2022
+Bombinhas;SC;períodos de chuva ao longo do dia;17;18;17;71;94;22;17:53;Bom;18:46 - 20:46;0,9;"Horários de maré alta: 3:49am (0,9m) e 4:44pm (0,9m).
+Horários de maré baixa: 11:14am (0,0m) e 11:00pm (0,3m)";;;13/08/2022
+Bï¿½zios;RJ;sol;21;21;21;0;67;33;17:32;Bom;18:22 - 20:22;1,2;"Horários de maré alta: 3:12am (1,2m) e 4:07pm (1,2m).
+Horários de maré baixa: 11:41am (0,0m) e 11:27pm (0,4m)";;;13/08/2022
+Cabo Frio;RJ;sol;21;21;21;0;67;35;17:32;Bom;18:22 - 20:22;1,1;"Horários de maré alta: 3:14am (1,1m) e 4:09pm (1,1m).
+Horários de maré baixa: 10:51am (0,0m) e 10:37pm (0,4m)";;;13/08/2022
+Enseada;SP;céu parcialmente nublado;17;18;17;31;85;39;17:43;Bom;18:34 - 20:34;1,1;"Horários de maré alta: 3:39am (1,1m) e 4:34pm (1,1m).
+Horários de maré baixa: 9:22am (0,0m) e 9:08pm (0,4m)";;;13/08/2022
+Fernando de Noronha;PE;chuva fraca;26;26;26;51;77;32;18:14;Bom;18:56 - 20:56;2,3;"Horários de maré alta: 6:06am (2,3m) e 6:30pm (2,2m).
+Horário de maré baixa: 6:51am (2,3m)";;;13/08/2022
+Florianï¿½polis;SC;céu parcialmente nublado;16;18;16;35;91;25;17:52;Bom;18:45 - 20:45;0,8;"Horários de maré alta: 2:57am (0,8m) e 3:52pm (0,8m).
+Horários de maré baixa: 11:01am (0,0m) e 10:47pm (0,3m)";;;13/08/2022
+Fortaleza;CE;céu parcialmente nublado;26;26;26;5;76;29;17:39;Bom;18:21 - 20:21;2,5;"Horários de maré alta: 5:57am (2,5m) e 6:23pm (2,4m).
+Horário de maré baixa: 6:40am (2,5m)";;;13/08/2022
+Guarujï¿½;SP;céu parcialmente nublado;19;19;19;2;83;27;17:48;Bom;18:39 - 20:39;1,4;"Horários de maré alta: 3:04am (1,4m) e 3:42pm (1,4m).
+Horários de maré baixa: 10:11am (0,0m) e 9:52pm (0,5m)";;;13/08/2022
+Ilha Bela;SP;céu parcialmente nublado;20;20;20;3;79;41;17:44;Bom;18:35 - 20:35;1,1;"Horários de maré alta: 3:39am (1,1m) e 4:34pm (1,1m).
+Horários de maré baixa: 9:22am (0,0m) e 9:08pm (0,4m)";;;13/08/2022
+Ilhï¿½us;BA;chuva fraca;21;23;21;100;85;37;17:29;Bom;18:16 - 20:16;2,3;"Horários de maré alta: 5:07am (2,3m) e 5:31pm (2,3m).
+Horários de maré baixa: 12:03pm (0,0m) e 11:39pm (0,0m)";;;13/08/2022
+Itanhaï¿½m;SP;céu parcialmente nublado;19;19;19;1;84;35;17:48;Bom;18:39 - 20:39;1,4;"Horários de maré alta: 3:04am (1,4m) e 3:42pm (1,4m).
+Horários de maré baixa: 10:11am (0,0m) e 9:52pm (0,5m)";;;13/08/2022
+Jaboatï¿½o dos Guararapes;PE;céu parcialmente nublado;25;26;25;29;70;38;17:20;Bom;18:03 - 20:03;2,3;"Horários de maré alta: 4:34am (2,3m) e 4:58pm (2,3m).
+Horários de maré baixa: 11:31am (0,0m) e 11:07pm (0,0m)";;;13/08/2022
+Jijoca de Jericoacoara;CE;céu parcialmente nublado;26;26;26;4;79;53;17:49;Bom;18:32 - 20:32;2,6;"Horário de maré alta: 7:39am (2,6m) e 7:22pm (2,5m).
+Horários de maré baixa: 12:44am (0,2m) e 1:11pm (0,1m)";;;13/08/2022
+Joï¿½o Pessoa;PB;céu parcialmente nublado;24;26;24;41;76;31;17:20;Bom;18:03 - 20:03;2,3;"Horários de maré alta: 4:38am (2,3m) e 5:02pm (2,3m).
+Horários de maré baixa: 11:34am (0,0m) e 11:10pm (0,0m)";;;13/08/2022
+Lagoinha;SP;céu parcialmente nublado;16;18;16;35;91;25;17:52;Bom;18:45 - 20:45;0,8;"Horários de maré alta: 2:57am (0,8m) e 3:52pm (0,8m).
+Horários de maré baixa: 11:01am (0,0m) e 10:47pm (0,3m)";;;13/08/2022
+Lauro de Freitas;BA;períodos de chuva ao longo do dia;24;25;24;76;77;38;17:29;Bom;18:15 - 20:15;2,3;"Horários de maré alta: 4:36am (2,3m) e 5:00pm (2,3m).
+Horários de maré baixa: 11:39am (0,0m) e 11:15pm (0,0m)";;;13/08/2022
+Macaï¿½;RJ;sol;18;21;18;0;71;31;17:32;Bom;18:21 - 20:21;1,2;"Horários de maré alta: 3:34am (1,2m) e 4:29pm (1,2m).
+Horários de maré baixa: 9:38am (0,0m) e 9:24pm (0,4m)";;;13/08/2022
+Macapï¿½;AP;céu parcialmente nublado;26;28;26;16;81;31;18:31;Bom;19:14 - 21:14;5,2;"Horários de maré alta: 12:04am (4,9m) e 12:20pm (5,2m).
+Horários de maré baixa: 7:04am (0,4m) e 6:48pm (0,2m)";;;13/08/2022
+Maceiï¿½;AL;céu parcialmente nublado;24;25;24;48;71;26;17:21;Bom;18:05 - 20:05;2,3;"Horários de maré alta: 4:44am (2,3m) e 5:08pm (2,3m).
+Horários de maré baixa: 11:45am (0,0m) e 11:21pm (0,0m)";;;13/08/2022
+Marechal Deodoro;AL;céu parcialmente nublado;24;25;24;48;71;26;17:21;Bom;18:05 - 20:05;2,3;"Horários de maré alta: 4:44am (2,3m) e 5:08pm (2,3m).
+Horários de maré baixa: 11:45am (0,0m) e 11:21pm (0,0m)";;;13/08/2022
+Morro de Sï¿½o Paulo;BA;chuva fraca;23;24;23;89;82;38;17:30;Bom;18:16 - 20:16;2,3;"Horários de maré alta: 4:45am (2,3m) e 5:09pm (2,3m).
+Horários de maré baixa: 11:44am (0,0m) e 11:20pm (0,0m)";;;13/08/2022
+Natal;RN;céu parcialmente nublado;24;27;24;41;75;32;17:23;Bom;18:06 - 20:06;2,3;"Horários de maré alta: 5:02am (2,3m) e 5:26pm (2,3m).
+Horários de maré baixa: 12:01pm (0,0m) e 11:37pm (0,0m)";;;13/08/2022
+Niterï¿½i;RJ;sol;19;20;19;0;69;23;17:36;Bom;18:27 - 20:27;1,2;"Horários de maré alta: 3:11am (1,2m) e 4:06pm (1,2m).
+Horários de maré baixa: 10:46am (0,0m) e 10:32pm (0,4m)";;;13/08/2022
+Olinda;PE;céu parcialmente nublado;25;26;25;29;70;38;17:20;Bom;18:03 - 20:03;2,3;"Horários de maré alta: 4:34am (2,3m) e 4:58pm (2,3m).
+Horários de maré baixa: 11:31am (0,0m) e 11:07pm (0,0m)";;;13/08/2022
+Paranagua;PR;céu parcialmente nublado;18;18;18;20;90;19;17:55;Bom;18:47 - 20:47;1,2;"Horários de maré alta: 5:02am (1,2m) e 5:57pm (1,2m).
+Horários de maré baixa: 9:14am (0,0m) e 9:00pm (0,4m)";60;46;13/08/2022
+Paraty;RJ;céu parcialmente nublado;17;18;17;31;85;39;17:43;Bom;18:34 - 20:34;1,2;"Horários de maré alta: 3:20am (1,2m) e 4:15pm (1,2m).
+Horários de maré baixa: 9:21am (0,0m) e 9:07pm (0,4m)";;;13/08/2022
+Parnaï¿½ba;PI;céu parcialmente nublado;27;27;27;6;79;53;17:52;Bom;18:35 - 20:35;2,5;"Horários de maré alta: 5:50am (2,5m) e 6:16pm (2,4m).
+Horário de maré baixa: 6:33am (2,5m)";;;13/08/2022
+Pedra Grande;RN;céu parcialmente nublado;23;25;23;38;72;25;17:20;Bom;18:04 - 20:04;2,3;"Horários de maré alta: 4:44am (2,3m) e 5:08pm (2,3m).
+Horários de maré baixa: 11:45am (0,0m) e 11:21pm (0,0m)";;;13/08/2022
+Peruï¿½be;SP;sol;19;19;19;0;83;30;17:48;Bom;18:39 - 20:39;1,4;"Horários de maré alta: 3:04am (1,4m) e 3:42pm (1,4m).
+Horários de maré baixa: 10:11am (0,0m) e 9:52pm (0,5m)";;;13/08/2022
+Ponta Negra;RN;períodos de chuva ao longo do dia;23;27;23;76;78;28;17:23;Bom;18:06 - 20:06;2,3;"Horários de maré alta: 5:02am (2,3m) e 5:26pm (2,3m).
+Horários de maré baixa: 12:01pm (0,0m) e 11:37pm (0,0m)";;;13/08/2022
+Porto Seguro;BA;céu nublado;23;23;23;93;60;35;17:27;Bom;18:14 - 20:14;2,3;"Horários de maré alta: 5:09am (2,3m) e 5:33pm (2,2m).
+Horários de maré baixa: 12:06pm (0,0m) e 11:42pm (0,0m)";;;13/08/2022
+Praia Grande;SP;sol;19;19;19;0;83;30;17:48;Bom;18:39 - 20:39;1,4;"Horários de maré alta: 3:04am (1,4m) e 3:42pm (1,4m).
+Horários de maré baixa: 10:11am (0,0m) e 9:52pm (0,5m)";;;13/08/2022
+Recife;PE;céu parcialmente nublado;24;26;24;37;68;37;17:20;Bom;18:03 - 20:03;2,3;"Horários de maré alta: 4:34am (2,3m) e 4:58pm (2,3m).
+Horários de maré baixa: 11:31am (0,0m) e 11:07pm (0,0m)";;;13/08/2022
+Rio das Ostras;RJ;céu parcialmente nublado;16;21;16;2;78;33;17:32;Bom;18:21 - 20:21;1,2;"Horários de maré alta: 3:34am (1,2m) e 4:29pm (1,2m).
+Horários de maré baixa: 9:38am (0,0m) e 9:24pm (0,4m)";;;13/08/2022
+Rio de Janeiro;RJ;céu parcialmente nublado;18;20;18;4;73;19;17:36;Bom;18:27 - 20:27;1,2;"Horários de maré alta: 3:11am (1,2m) e 4:06pm (1,2m).
+Horários de maré baixa: 10:46am (0,0m) e 10:32pm (0,4m)";107;48;13/08/2022
+Salvador;BA;chuva fraca;23;24;23;96;81;41;17:29;Bom;18:15 - 20:15;2,3;"Horários de maré alta: 4:36am (2,3m) e 5:00pm (2,3m).
+Horários de maré baixa: 11:39am (0,0m) e 11:15pm (0,0m)";;;13/08/2022
+Santos;SP;sol;18;19;18;0;81;21;17:48;Bom;18:39 - 20:39;1,4;"Horários de maré alta: 3:04am (1,4m) e 3:42pm (1,4m).
+Horários de maré baixa: 10:11am (0,0m) e 9:52pm (0,5m)";122;170;13/08/2022
+Sï¿½o Luis;MA;céu parcialmente nublado;25;28;25;35;85;24;18:03;Bom;18:46 - 20:46;5,9;"Horário de maré alta: 9:00am (5,9m) e 8:43pm (5,6m).
+Horários de maré baixa: 2:03am (0,5m) e 2:30pm (0,3m)";;;13/08/2022
+Sï¿½o Mateus;ES;céu parcialmente nublado;21;23;21;68;65;33;17:28;Bom;18:16 - 20:16;2,3;"Horários de maré alta: 5:24am (2,3m) e 5:48pm (2,3m).
+Horários de maré baixa: 12:20pm (0,0m) e 11:56pm (0,0m)";;;13/08/2022
+Sï¿½o Sebastiï¿½o;SP;sol;20;20;20;0;80;44;17:44;Bom;18:35 - 20:35;1,1;"Horários de maré alta: 3:39am (1,1m) e 4:34pm (1,1m).
+Horários de maré baixa: 9:22am (0,0m) e 9:08pm (0,4m)";;;13/08/2022
+Tibau do Sul;RN;chuva fraca;24;26;24;76;80;30;17:22;Bom;17:09 - 19:09;2,3;"Horários de maré alta: 5:02am (2,3m) e 5:26pm (2,3m).
+Horários de maré baixa: 12:01pm (0,0m) e 11:37pm (0,0m)";;;13/08/2022
+Ubatuba;SP;céu parcialmente nublado;17;18;17;3;84;36;17:43;Bom;18:34 - 20:34;1,2;"Horários de maré alta: 3:20am (1,2m) e 4:15pm (1,2m).
+Horários de maré baixa: 9:21am (0,0m) e 9:07pm (0,4m)";;;13/08/2022
+Vila Velha;ES;céu parcialmente nublado;21;21;21;19;60;12;17:28;Bom;18:17 - 20:17;1,5;"Horários de maré alta: 5:08am (1,5m) e 5:32pm (1,5m).
+Horários de maré baixa: 12:06pm (0,0m) e 11:42pm (0,0m)";;;13/08/2022
+Rio Grande;RS;céu parcialmente nublado;14;15;14;6;87;14;18:00;Bom;18:56 - 20:56;1,0;"Horários de maré alta: 1:55am (1,0m) e 2:40pm (0,7m).
+Horários de maré baixa: 8:36am (0,4m) e 7:10pm (0,4m)";53;29;13/08/2022
+Suape;PE;céu parcialmente nublado;24;26;24;28;69;28;17:20;Bom;18:03 - 20:03;2,3;"Horários de maré alta: 4:34am (2,3m) e 4:58pm (2,3m).
+Horários de maré baixa: 11:31am (0,0m) e 11:07pm (0,0m)";22;22;13/08/2022
+Itajai;PE;céu parcialmente nublado;24;26;24;28;69;28;17:20;Bom;18:03 - 20:03;2,3;"Horários de maré alta: 4:34am (2,3m) e 4:58pm (2,3m).
+Horários de maré baixa: 11:31am (0,0m) e 11:07pm (0,0m)";35;3;13/08/2022

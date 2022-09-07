@@ -5,6 +5,7 @@ import time
 import json
 import sys
 import os
+import re
 from datetime import date
 from bs4 import BeautifulSoup
 from twitter_api import TwitterClass
@@ -44,7 +45,6 @@ class HelperClassNews:
         self.twitter_api = TwitterClass()
         
         # parâmetros globais
-        self.dict_header = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582"}
         self.url_google_news = "https://news.google.com"
     
         # lista de pesquisas
@@ -90,7 +90,7 @@ class HelperClassNews:
                 
         for pesquisa in self.lista_pesquisas:
             pesquisa = self.gera_url_google_news(pesquisa)
-            response = requests.get(pesquisa, headers=self.dict_header)
+            response = requests.get(pesquisa)
             soup = BeautifulSoup(response.text, 'html.parser')
 
             for index, result in enumerate(soup.select('.xrnccd')):
@@ -100,7 +100,8 @@ class HelperClassNews:
                     break
 
                 # data da publicação
-                data = result.find("time", {"class": "WW6dff uQIVzc Sksgp"}).text
+                classe_regex = re.compile('.*WW6dff uQIVzc Sksgp.*')
+                data = result.find("time", {"class": classe_regex}).text
                 if ('hora' not in data.lower() and 'ontem' not in data.lower()):
                     continue
                     
@@ -152,7 +153,12 @@ class HelperClassNews:
 
                 # verifica se tweet está ok
                 if (self.twitter_api.verifica_tweet_pode_ser_publicado(tweet) and self.twitter_api.valida_tamanho_tweet(tweet)):
-                    status = self.twitter_api.make_tweet(tweet, self.modulo, "vazio", "vazio")
+                    status = self.twitter_api.make_tweet(tweet=tweet,
+                                                    modulo=self.modulo,
+                                                    intent="noticias",
+                                                    lista_atributos=[],
+                                                    modo_operacao='padrao',
+                                                    tweet_id=0)
                     if (status != 0):
                         print (tweet)
                         print ('Tweet publicado!')
