@@ -1,0 +1,5 @@
+cidade;uf;tempo;temperatura;temperatura_max;temperatura_min;nebulosidade;umidade;vento;horario_por_sol;pesca;melhor_horario_pesca;altura_maior_onda;texto_onda;qtd_navios_porto;qtd_navios_chegando;data
+Angra dos Reis;RJ;céu parcialmente nublado;21;22;21;2;82;9;17:42;Mediano;22:20 - 12:20;0,8;"Horário de maré alta: 1:52am (0,4m) e 6:41pm (0,8m).
+Horários de maré baixa: 1:03am (0,4m) e 1:51pm (0,4m)";;;17/08/2022
+Aracaju;SE;céu parcialmente nublado;24;25;24;58;73;27;17:26;Mediano;21:35 - 23:35;1,8;"Horário de maré alta: 8:46am (1,8m) e 8:10pm (1,8m).
+Horários de maré baixa: 1:57am (0,2m) e 2:24pm (0,5m)";;;17/08/2022

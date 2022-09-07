@@ -8,11 +8,12 @@ import os
 import datetime
 from datetime import date
 from bs4 import BeautifulSoup
-from selenium import webdriver
 from discourse_ordering import DiscourseOrderingClass
 from twitter_api import TwitterClass
 from shapely.geometry.polygon import Polygon
 from shapely.geometry import Point
+import requests
+import csv
 
 class TerremotosClass:
     """
@@ -35,14 +36,14 @@ class TerremotosClass:
                              12: 'dezembro'
                              }
         
+        # dia atual formatado
+        self.dia_atual_format = date.today().strftime("%Y-%m-%d")
+        
         # dia atual
         print (self.get_dia_atual())
         
         # path atual
         self.current_path = str(os.getcwd())
-        
-        # path do chromedriver
-        self.path_to_chromedriver = os.path.join(self.current_path, 'chromedriver')
         
         # API do Twitter
         self.twitter_api = TwitterClass()
@@ -73,22 +74,20 @@ class TerremotosClass:
             self.lista_palavras_analisador_lexico.add(palavra)
         self.lista_palavras_analisador_lexico = list(self.lista_palavras_analisador_lexico)
         
-        # parametros do webdriver
-        self.chromeOptions = webdriver.ChromeOptions()
-        self.chromeOptions.add_argument('--no-sandbox')
-        self.chromeOptions.add_argument("--headless")
-        
         # parâmetros
         self.tempo_espera_tweet_segundos = 60
         self.qtd_max_terremotos = 10
         self.modulo = 'terremotos'
         
         # colunas para atribuir valor
-        self.lista_colunas = ['data',
+        self.lista_colunas = ['id_terremoto',
                               'data_info',
                               'localizacao',
                               'magnitude',
-                              'profundidade']
+                              'magtype',
+                              'profundidade',
+                              'lat',
+                              'lon']
         
         # se não existe arquivo de bd, cria
         if not os.path.exists(self.path_bd):
@@ -134,26 +133,38 @@ class TerremotosClass:
             # inclui data de hoje
             data_hoje = date.today().strftime("%d/%m/%Y")
         
-            # entra na url do site
-            url = "http://www.moho.iag.usp.br/eq/latest#sa"
-            driver = webdriver.Chrome(self.path_to_chromedriver, options=self.chromeOptions)
-            driver.get(url)
-            time.sleep(3)
-            soup = BeautifulSoup(driver.page_source, 'lxml')
-            soup = soup.find("table", {"id" : "results"})
-            tabela = soup.find_all('tr')
+            # entra na url do site e realiza leitura do arquivo csv
+            url = "http://www.moho.iag.usp.br/fdsnws/event/1/query?format=text&orderby=time&limit=100&maxlat=10&minlon=-55&maxlon=-10&minlat=-55"
+            driver = requests.Session()
+            time.sleep(1)
+            page = requests.Session()
+            download = page.get(url)
+            time.sleep(2)
+            decoded_content = download.content.decode('utf-8')
+            cr = csv.reader(decoded_content.splitlines(), delimiter='|')
+            my_list = list(cr)
+            lista_colunas = ['#EventID', 'Time', 'Latitude', 'Longitude', 'Depth/km', 'MagType', 'Magnitude', 'EventLocationName']
+            df = pd.DataFrame(my_list[1::], columns=my_list[0])[lista_colunas]
 
             # itera na lista de terremotos
-            valor_atual = ""
-            for linha in tabela[1:21]:
-                valores = linha.find_all("td")
-                lat = float(valores[2].get_text().split(" ")[0].strip())
-                long = float(valores[1].get_text().split(" ")[0].strip())
-                data_info = valores[0].get_text().split(" ")[0].strip()
-                profundidade = str(float(valores[3].get_text())).strip()
-                magnitude = valores[5].get_text().strip()
-                localizacao = valores[6].get_text().strip()
+            for index, row  in df.iterrows():
+                id_terremoto = str(row['#EventID'])
+                data_info = str(row['Time']).strip().split('T')[0]
+                ano = data_info.split('-')[0]
+                mes = self.dict_map_mes[int(data_info.split('-')[1])]
+                dia = data_info.split('-')[2]
+                data = f'{dia} de {mes} de {ano}'
+                lat = float(str(row['Latitude']).strip())
+                long = float(str(row['Longitude']).strip())
+                profundidade = round(float(str(row['Depth/km']).strip()), 2)
+                magnitude = round(float(str(row['Magnitude']).strip()), 2)
+                magtype = str(row['MagType']).strip()
+                localizacao = str(row['EventLocationName']).strip()
                 
+                # verifica se o evento foi hoje
+                if (data_info != self.dia_atual_format):
+                    continue
+
                 # verifica se ponto está na área de interesse
                 ponto = Point(lat, long)
                 if not self.area_interesse.contains(ponto):
@@ -163,24 +174,16 @@ class TerremotosClass:
                 if float(profundidade) <= 0:
                     continue
                 
-                # check para obter data única
-                if data_info != valor_atual and valor_atual != "":
-                    break
-                else:
-                    valor_atual = data_info
-
-                # print
-                print (data_info, profundidade, magnitude, localizacao)
-                
                 # salva valores na lista
-                lista_infos.append([data_hoje,
-                                    data_info,
+                lista_infos.append([id_terremoto,
+                                    data,
                                     localizacao,
                                     magnitude,
-                                    profundidade])
+                                    magtype,
+                                    profundidade,
+                                    lat,
+                                    long])
             
-            # fecha o driver da conexao
-            driver.close()
 
             # adiciona listas
             df_infos = pd.DataFrame(lista_infos,
@@ -222,8 +225,7 @@ class TerremotosClass:
         '''
         
         try:
-            magnitude = float(df_linha['magnitude'].split(" ")[0])
-            print (magnitude)
+            magnitude = float(df_linha['magnitude'])
             
             # escala 5
             if magnitude >= 8.0:
@@ -263,6 +265,8 @@ class TerremotosClass:
             localizacao = df_linha['localizacao']
             magnitude = df_linha['magnitude']
             profundidade = df_linha['profundidade']
+            lat = df_linha['lat']
+            lon = df_linha['lon']
                 
             # lista de textos possíveis para cada intent
             lista_possibilidades = self.dict_intents[intent]
@@ -295,7 +299,7 @@ class TerremotosClass:
         
     def publica_conteudo(self):
         '''
-        Publica previsão do tempo (tábua de marés)
+        Publica terremotos
         '''
         
         # data de hoje
@@ -305,9 +309,34 @@ class TerremotosClass:
             # gera resultados
             df_resultados = self.extrai_resultados()
             
+            # se o conteúdo for de tamanho 0, retorna
+            if len(df_resultados) == 0:
+                return
+            
+<<<<<<< HEAD
             # adiciona dados da rodada ao BD
             df_atual = pd.read_csv(self.path_bd, sep=';')
+
+#             # filtra informações que ainda não estão no bd
+#             outer_join = df_resultados.merge(df_atual, how='outer', indicator=True, on=['data_info', 'localizacao'])
+#             df_dados_novos = outer_join[~(outer_join._merge == 'both')].drop('_merge', axis = 1)
+#             df_dados_novos = df_dados_novos.iloc[:, :5]
+#             df_dados_novos.columns = self.lista_colunas
             
+#             # adiciona dados ao bd atual
+#             try:
+#                 df_novo = df_atual.append(df_dados_novos[self.lista_colunas])
+#                 df_novo.to_csv(self.path_bd, index=False, sep=';')
+#             except Exception as e:
+#                 print (e)
+=======
+            df_resultados = pd.DataFrame(['1', '1', '1', '1', '1']).transpose()
+            df_resultados.columns = self.lista_colunas
+            print (df_resultados)
+            
+            # adiciona dados da rodada ao BD
+            df_atual = pd.read_csv(self.path_bd, sep=';')
+
             # filtra informações que ainda não estão no bd
             outer_join = df_resultados.merge(df_atual, how='outer', indicator=True, on=['data_info', 'localizacao'])
             df_dados_novos = outer_join[~(outer_join._merge == 'both')].drop('_merge', axis = 1)
@@ -315,8 +344,12 @@ class TerremotosClass:
             df_dados_novos.columns = self.lista_colunas
             
             # adiciona dados ao bd atual
-            df_novo = df_atual.append(df_dados_novos[self.lista_colunas])
-            df_novo.to_csv(self.path_bd, index=False, sep=';')
+            try:
+                df_novo = df_atual.append(df_dados_novos[self.lista_colunas])
+                df_novo.to_csv(self.path_bd, index=False, sep=';')
+            except Exception as e:
+                print (e)
+>>>>>>> 3baf2b5123e8124a9e0c7d55812a9a288ff5e6b3
 
             # filtra dados para publicação
             df_selecionados = self.seleciona_conteudo_publicar(df_resultados)

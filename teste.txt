@@ -1,0 +1,6 @@
+teste*
+*.jpg
+*.csv
+credenciais_mongo.json
+credenciais_twitter.json
+credenciais_user_agent.json

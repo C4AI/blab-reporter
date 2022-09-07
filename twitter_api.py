@@ -13,6 +13,40 @@ class TwitterClass:
     """
     def __init__(self):
         
+        # flag print tweet
+        self.print_tweet = 0
+        
+        # dicionário de mapeamento de emojis
+        self.dict_map_emoji = {'grafico':'\U0001F4CA',
+                       'pesca':'\U0001F3A3',
+                       'peixe':'\U0001F41F',
+                       'oceano':'\U0001F305',
+                       'onda':'\U0001F30A',
+                       'robo':'\U0001F916',
+                       'surf':'\U0001F3C4',
+                       'sol':'\U0001F324',
+                       'sol_face':'\U0001F31E',
+                       'nuvem':'\U0001F325',
+                       'nuvem_sol':'\U0001F326',
+                       'chuva':'\U0001F327',
+                       'chuva_sol':'\U0001F326',
+                       'chuva_relampago':'\U000126C8',
+                       'relampago':'\U00011F329',
+                       'satelite':'\U0001F6F0',
+                       'oculos_sol':"\U0001F60E",
+                       'sombra':'\U0001F3D6',
+                       'vento':'\U0001F32A',
+                       'dedo_baixo':'\U0001F447',
+                       'tres_pontos':'\U0001F4AC',
+                       'barco_1':'\U000126F4',
+                       'barco_2':'\U0001F6F3',
+                       'barco_3':'\U0001F6A2',
+                       'normal': '\U0001F600',
+                       'sono': '\U0001F634',
+                       'bravo': '\U0001F92C',
+                       'covid': '\U0001F637'
+                       }
+        
         # path atual
         self.current_path = sys.path[0]
         
@@ -49,8 +83,8 @@ class TwitterClass:
         
         # se não existe arquivo de bd, cria
         if not os.path.exists(self.path_twitter_bd):
-            pd.DataFrame(columns=['tweet', 'modulo', 'intent', 'lista_atributos', 'data']).\
-            to_csv(self.path_twitter_bd, sep=';', index=False)
+            df = pd.DataFrame(columns=['tweet', 'modulo', 'intent', 'lista_atributos', 'data'])
+            df.to_csv(self.path_twitter_bd, sep=';', index=False)
         
         # Autentica no Twitter
         try:
@@ -66,43 +100,13 @@ class TwitterClass:
             self.api = api
     
         # Erro de autenticação
-        except:
+        except Exception as e:
             print("Erro de autenticação!")
+            print (e)
             sys.exit(0)
         
-        
-        self.dict_map_emoji = {'grafico':'\U0001F4CA',
-                               'pesca':'\U0001F3A3',
-                               'peixe':'\U0001F41F',
-                               'oceano':'\U0001F305',
-                               'onda':'\U0001F30A',
-                               'robo':'\U0001F916',
-                               'surf':'\U0001F3C4',
-                               'sol':'\U0001F324',
-                               'sol_face':'\U0001F31E',
-                               'nuvem':'\U0001F325',
-                               'nuvem_sol':'\U0001F326',
-                               'chuva':'\U0001F327',
-                               'chuva_sol':'\U0001F326',
-                               'chuva_relampago':'\U000126C8',
-                               'relampago':'\U00011F329',
-                               'satelite':'\U0001F6F0',
-                               'oculos_sol':"\U0001F60E",
-                               'sombra':'\U0001F3D6',
-                               'vento':'\U0001F32A',
-                               'dedo_baixo':'\U0001F447',
-                               'tres_pontos':'\U0001F4AC',
-                               'barco_1':'\U000126F4',
-                               'barco_2':'\U0001F6F3',
-                               'barco_3':'\U0001F6A2',
-                               'normal': '\U0001F600',
-                               'sono': '\U0001F634',
-                               'bravo': '\U0001F92C',
-                               'covid': '\U0001F637'
-                               }
-        
         # limite de caracteres
-        self.limite_caracteres = 280
+        self.limite_caracteres = 2_000
         
         # distancia minima entre tweets
         self.distancia_minima_tweets = 0.005
@@ -123,7 +127,25 @@ class TwitterClass:
         retorna flag indicando se o tweet é válido para ser publicados
         '''
         return self.verifica_tweet_pode_ser_publicado(tweet) and self.valida_tamanho_tweet(tweet)
-        
+    
+    
+    def get_meses(self):
+        '''
+        retorna meses
+        '''
+        return {1: 'janeiro',
+                2: 'fevereiro',
+                3: 'março',
+                4: 'abril',
+                5: 'maio',
+                6: 'junho',
+                7: 'julho',
+                8: 'agosto',
+                9: 'setembro',
+                10: 'outubro',
+                11: 'novembro',
+                12: 'dezembro'
+                }
     
     def calcula_distancia_strings(self, string1, string2):
         '''
@@ -137,7 +159,7 @@ class TwitterClass:
         valida tamanho do tweet
         retorna True caso menor e False caso maior que o limite de caracteres
         '''
-        flag = (len(tweet) <= self.limite_caracteres)
+        flag = (len(tweet) >= 10 and len(tweet) <= self.limite_caracteres)
         return flag
     
     
@@ -162,13 +184,24 @@ class TwitterClass:
         return self.flag_publicacao
     
     
+    def substitui_emojis(self, texto):
+        '''
+        substitui emoji
+        '''
+        lista_emojis = list(self.dict_map_emoji.keys())
+        for emoji in lista_emojis:
+            texto = texto.replace(f"[{emoji}]", self.dict_map_emoji[emoji])
+            texto = texto.replace(f"[emoji_{emoji}]", self.dict_map_emoji[emoji])
+        return texto
+    
     # publica o tweet
-    def make_tweet(self, tweet, modulo, intent, lista_atributos, modo_operacao='padrao', tweet_id=0):
+    def make_tweet(self, tweet, modulo, intent='teste', lista_atributos="teste", modo_operacao='padrao', tweet_id=0):
         """
         Publica um tweet utilizando a API do Twitter
         """
         tweet = self.substitui_emojis(tweet)
-        print (tweet)
+        if self.print_tweet == 1:
+            print (tweet)
         try:
             if (tweet_id != 0):
                 if modo_operacao == 'padrao':
@@ -181,22 +214,27 @@ class TwitterClass:
 
                 else:
                     print ('Erro! Modo de operacao nao reconhecido.')
-                    sys.exit(0)
-                    return 0
+                    return status
 
                 # adiciona tweet ao bd
                 try:
+                    print ('adicionando ao bd')
                     self.adiciona_tweet(tweet, modulo, intent, lista_atributos)
-                except:
+                except Exception as e:
+<<<<<<< HEAD
+                    return status
+=======
+                    print (e)
                     return 0
+>>>>>>> 3baf2b5123e8124a9e0c7d55812a9a288ff5e6b3
 
                 # retorna status do tweet
-                return status
+                return 'ok'
 
             else:
                 if modo_operacao == 'padrao':
-                        # publica o Tweet sem foto
-                        status = self.api.update_status(tweet)
+                    # publica o Tweet sem foto
+                    status = self.api.update_status(tweet)
 
                 elif modo_operacao == 'foto':
                     # publica o Tweet com foto
@@ -210,12 +248,19 @@ class TwitterClass:
                 # adiciona tweet ao bd
                 try:
                     self.adiciona_tweet(tweet, modulo, intent, lista_atributos)
-                except:
+                except Exception as e:
+                    print (e)
                     return 0
 
                 # retorna status do tweet
+<<<<<<< HEAD
                 return status
+            
+=======
+                return 'ok'
+>>>>>>> 3baf2b5123e8124a9e0c7d55812a9a288ff5e6b3
         except Exception as e:
+            print (e)
             return 0
                     
             
@@ -251,17 +296,6 @@ class TwitterClass:
         
         # tweet ok
         return 1
-    
-        
-    def substitui_emojis(self, texto):
-        '''
-        substitui emoji
-        '''
-        lista_emojis = list(self.dict_map_emoji.keys())
-        for emoji in lista_emojis:
-            texto = texto.replace(f"[{emoji}]", self.dict_map_emoji[emoji])
-            texto = texto.replace(f"[emoji_{emoji}]", self.dict_map_emoji[emoji])
-        return texto
         
         
     def adiciona_tweet(self, tweet, modulo, intent, lista_atributos):
@@ -282,6 +316,6 @@ class TwitterClass:
         df_bd.loc[-1] = linha
         df_bd.index = df_bd.index + 1
         df_bd = df_bd.sort_index()
-        
+
         # salva bd atualizado em csv
         df_bd.to_csv(self.path_twitter_bd, sep=';', index=False)

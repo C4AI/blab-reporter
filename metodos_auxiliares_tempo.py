@@ -21,20 +21,11 @@ class HelperClassTempo:
     """
     def __init__(self):
         
-        # mapeamento de meses
-        self.dict_map_mes = {1: 'janeiro',
-                             2: 'fevereiro',
-                             3: 'março',
-                             4: 'abril',
-                             5: 'maio',
-                             6: 'junho',
-                             7: 'julho',
-                             8: 'agosto',
-                             9: 'setembro',
-                             10: 'outubro',
-                             11: 'novembro',
-                             12: 'dezembro'
-                             }
+        # API do Twitter
+        self.twitter_api = TwitterClass()
+        
+        # get meses
+        self.dict_map_mes = self.twitter_api.get_meses()
         
         # dia atual
         print (self.get_dia_atual())
@@ -44,9 +35,6 @@ class HelperClassTempo:
         
         # path do chromedriver
         self.path_to_chromedriver = os.path.join(self.current_path, 'chromedriver')
-        
-        # API do Twitter
-        self.twitter_api = TwitterClass()
         
         # arquivos auxiliares
         self.path_infos_cidades = os.path.join(self.current_path, "cidades.csv")
@@ -64,6 +52,12 @@ class HelperClassTempo:
             f.close()
         except:
             self.user_agent = "temporary_agent"
+            
+        # parametros do webdriver
+        self.chromeOptions = webdriver.ChromeOptions()
+        self.chromeOptions.add_argument('--no-sandbox')
+        self.chromeOptions.add_argument("--headless")
+        self.chromeOptions.add_argument(f"user-agent={self.user_agent}")
         
         # leitura do arquivo json com os intents
         f = open(path_intents, encoding='utf-8', mode="r")
@@ -85,12 +79,6 @@ class HelperClassTempo:
             self.lista_palavras_analisador_lexico.add(palavra)
         self.lista_palavras_analisador_lexico = list(self.lista_palavras_analisador_lexico)
         
-        # parametros do webdriver
-        self.chromeOptions = webdriver.ChromeOptions()
-        self.chromeOptions.add_argument('--no-sandbox')
-        self.chromeOptions.add_argument("--headless")
-        self.chromeOptions.add_argument(f"user-agent={self.user_agent}")
-        
         # parâmetros
         self.url_tabua_mares = "https://www.tideschart.com"
         self.tempo_espera_tweet_segundos = 60
@@ -110,7 +98,9 @@ class HelperClassTempo:
         self.icone_down = '▼'
         
         # df cidades
-        self.df_cidades = pd.read_csv(self.path_infos_cidades, encoding='latin-1', sep=';')
+        self.df_cidades = pd.read_csv(self.path_infos_cidades, encoding='latin-1', sep=',')
+        if self.df_cidades.shape[1] <= 2:
+            self.df_cidades = pd.read_csv(self.path_infos_cidades, encoding='latin-1', sep=';')
         
         # colunas para atribuir valor
         self.lista_colunas_tempo = ['cidade',
@@ -126,8 +116,7 @@ class HelperClassTempo:
                                     'pesca',
                                     'melhor_horario_pesca',
                                     'altura_maior_onda',
-                                    'texto_onda',
-                                    'url_imagem']
+                                    'texto_onda']
         
         # colunas para atribuir valor
         self.lista_colunas_salvar = ['cidade',
@@ -288,7 +277,7 @@ class HelperClassTempo:
 
                 # cria urls
                 url_dia = f"{self.url_tabua_mares}/{valor}"
-
+                
                 # entra na url
                 driver = webdriver.Chrome(self.path_to_chromedriver, options=self.chromeOptions)
                 driver.get(url_dia)
@@ -513,10 +502,6 @@ class HelperClassTempo:
                         pesca = ''
                 else:
                     pesca = ''
-                      
-                    
-                # imagem adicional do litoral da cidade
-                url_imagem = driver.find_element_by_xpath(self.path_url_imagem).get_attribute("src")
                 
                 # salva lista
                 lista_infos.append([cidade,
@@ -532,16 +517,12 @@ class HelperClassTempo:
                                     pesca,
                                     melhor_horario_pesca,
                                     altura_maior_onda,
-                                    texto_onda,
-                                    url_imagem])
+                                    texto_onda])
 
             # erro de execução
             except Exception as e:
                 print (f'Erro na cidade {cidade}! {e}')
                 continue
-
-        # fecha o driver
-        driver.close()
                                                   
         # cria o dataframe
         try:
@@ -929,11 +910,6 @@ class HelperClassTempo:
         for index in range(len(df_selecionados)):
             try:
                 df_linha = df_selecionados.iloc[index]
-                
-                # salva foto
-                with open("foto.png", "wb") as f:
-                    f.write(requests.get(df_linha['url_imagem'], headers={'user-agent': self.user_agent}).content)
-                time.sleep(1)
 
                 # intent do conjunto de dados
                 intent = self.atribui_intent(df_linha)
@@ -943,18 +919,20 @@ class HelperClassTempo:
 
                 # cria o tweet
                 tweet = self.atribui_template(df_linha, intent)
-                print (tweet)
 
                 # verifica se pode publicar o tweet
                 if (tweet == ""):
                     print ('tweet vazio. tweet não pode ser publicado.')
                     continue
 
-                # verifica se tweet pode ser publicado                
+                # verifica se o tweet pode ser publicado                
                 if (self.twitter_api.valida_tweet(tweet)):
                     try:
                         lista_atributos = ', '.join(df_linha.values.tolist())
-                        self.twitter_api.make_tweet(tweet, self.modulo, intent, lista_atributos, 'foto')
+                        
+                        print (lista_atributos)
+                        
+                        self.twitter_api.make_tweet(tweet, self.modulo, intent, lista_atributos, 'padrao')
                         print ('Tweet publicado')
 
                         # espera um tempo para publicar novamente

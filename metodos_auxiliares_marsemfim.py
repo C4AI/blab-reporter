@@ -42,17 +42,8 @@ class HelperClassMarsemfim:
         # path atual
         self.current_path = str(os.getcwd())
         
-         # path do chromedriver
-        self.path_to_chromedriver = os.path.join(self.current_path, 'chromedriver')
-        
         # API do Twitter
         self.twitter_api = TwitterClass()
-        
-        # parametros do webdriver
-        self.chromeOptions = webdriver.ChromeOptions()
-        self.chromeOptions.add_argument('--no-sandbox')
-        self.chromeOptions.add_argument('headless')
-        self.chromeOptions.add_argument(f"User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582")
 
         # parâmetros
         self.url = "https://marsemfim.com.br"
@@ -80,28 +71,26 @@ class HelperClassMarsemfim:
             lista_news = []
         
             # entra na url
-            driver = webdriver.Chrome(self.path_to_chromedriver, options=self.chromeOptions)
-            driver.get(self.url)
-
-            elemento_pesquisa = '//h3[contains(@class, "entry-title td-module-title")]/a'
-            lista_elementos = driver.find_elements_by_xpath(elemento_pesquisa)
-            max_elementos = max(len(lista_elementos), 10)
-            lista_elementos = lista_elementos[:max_elementos]
+            page = requests.get(self.url).text
+            soup = BeautifulSoup(page, 'html.parser')
+            lista_elementos = soup.select('h3[class*="entry-title td-module-title"]')
+            lista_elementos = lista_elementos[:max(len(lista_elementos), 10)]
         except:
             sys.exit(0)
                 
         for elemento in lista_elementos:
             try:
-                texto = elemento.text
-                link = elemento.get_attribute("href")
-                
+                texto = str(soup.select('h3[class*="entry-title td-module-title"]')[0]).split('">')[-1].split('</a><')[0]
+                link = str(soup.select('h3[class*="entry-title td-module-title"]')[0]).split('href="')[1].split('"')[0]
+
                 # gera resumo da notícia
                 try:
                     soup = BeautifulSoup(requests.get(link).content, features="lxml")
                     resumo_pt1 = soup.find("h2", {"style": "text-align: justify;"}).text
                     resumo_pt2 = soup.find("p", {"style": "text-align: justify;"}).text
                     resumo = f"{resumo_pt1}. {resumo_pt2}"
-                except:
+                except Exception as e:
+                    print (f'Erro: {e}')
                     resumo = ''
 
                 # coloca noticia e link na lista
@@ -112,7 +101,6 @@ class HelperClassMarsemfim:
         # sorteia ordem de publicação
         try:
             random.shuffle(lista_news)
-            driver.close()
             return lista_news
         except:
             sys.exit(0)
@@ -190,7 +178,12 @@ class HelperClassMarsemfim:
                 if self.twitter_api.verifica_tweet_pode_ser_publicado(tweet_0) and self.twitter_api.valida_tamanho_tweet(tweet_0):
                     
                     if (self.flag_resumo == 0 or len(resumo) <= 10 or len_lista_resumos == 0):
-                        self.twitter_api.make_tweet(tweet_0, self.modulo, "vazio", "vazio")
+                        self.twitter_api.make_tweet(tweet=tweet_0,
+                                                    modulo=self.modulo,
+                                                    intent="marsemfim",
+                                                    lista_atributos=[],
+                                                    modo_operacao='padrao',
+                                                    tweet_id=0)
                         print ('Tweet publicado!')
                         contador_publicacoes+=1
                         continue
@@ -199,14 +192,24 @@ class HelperClassMarsemfim:
                         # valida resumos
                         for resumo in lista_resumos:
                             if not (self.twitter_api.verifica_tweet_pode_ser_publicado(resumo)):
-                                self.twitter_api.make_tweet(tweet_0, self.modulo, "vazio", "vazio")
+                                self.twitter_api.make_tweet(tweet=tweet_0,
+                                                    modulo=self.modulo,
+                                                    intent="marsemfim",
+                                                    lista_atributos=[],
+                                                    modo_operacao='padrao',
+                                                    tweet_id=0)
                                 print ('Tweet publicado!')
                                 contador_publicacoes+=1
                                 continue
                          
                         # publica tweet e depois resumos
                         try:
-                            status = self.twitter_api.make_tweet(tweet_1, self.modulo, "vazio", "vazio")
+                            status = self.twitter_api.make_tweet(tweet=tweet_0,
+                                                    modulo=self.modulo,
+                                                    intent="marsemfim",
+                                                    lista_atributos=[],
+                                                    modo_operacao='padrao',
+                                                    tweet_id=0)
                             status_id = str(status.id_str)
                         except:
                             continue
@@ -214,6 +217,8 @@ class HelperClassMarsemfim:
                         # itera na lista de resumos
                         for indice_resumo in range(len_lista_resumos):
                             resumo = lista_resumos[indice_resumo]
+                            
+                            print (resumo + '...')
                             
                             # coloca emoji do robô
                             resumo = f"{self.twitter_api.dict_map_emoji['robo']} {resumo}"
@@ -223,7 +228,12 @@ class HelperClassMarsemfim:
                                 resumo = f"{resumo} {self.twitter_api.dict_map_emoji['tres_pontos']}"
                             
                             # publica tweet do resumo
-                            status = self.twitter_api.make_tweet(resumo, self.modulo, "vazio", "vazio", tweet_id=str(status.id_str))
+                            status = self.twitter_api.make_tweet(tweet=tweet_0,
+                                                    modulo=self.modulo,
+                                                    intent="marsemfim",
+                                                    lista_atributos=[],
+                                                    modo_operacao='padrao',
+                                                    tweet_id=str(status.id_str))
                     
                         print ('Tweet publicado!')
                         time.sleep(60)
