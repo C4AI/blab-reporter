@@ -27,10 +27,12 @@ class CuriosidadesClass:
         # path json curiosidades
         path_curiosidades = os.path.join(self.current_path, "curiosidades.csv")
         
-        # curiosidades
-        self.lista_curiosidades = pd.read_csv(path_curiosidades, sep=';', encoding='utf-8', header=None)[0]
+        # modulo
         self.modulo = 'curiosidades'
         
+        # curiosidades
+        with open(path_curiosidades) as f:
+            self.lista_curiosidades = [linha.replace('\n', '') for linha in f.readlines()]
     
     def seleciona_curiosidade(self):
         '''

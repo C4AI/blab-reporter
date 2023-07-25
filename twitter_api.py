@@ -221,15 +221,8 @@ class TwitterClass:
                     print ('adicionando ao bd')
                     self.adiciona_tweet(tweet, modulo, intent, lista_atributos)
                 except Exception as e:
-<<<<<<< HEAD
                     return status
-=======
-                    print (e)
-                    return 0
->>>>>>> 3baf2b5123e8124a9e0c7d55812a9a288ff5e6b3
 
-                # retorna status do tweet
-                return 'ok'
 
             else:
                 if modo_operacao == 'padrao':
@@ -253,12 +246,9 @@ class TwitterClass:
                     return 0
 
                 # retorna status do tweet
-<<<<<<< HEAD
+
                 return status
             
-=======
-                return 'ok'
->>>>>>> 3baf2b5123e8124a9e0c7d55812a9a288ff5e6b3
         except Exception as e:
             print (e)
             return 0
